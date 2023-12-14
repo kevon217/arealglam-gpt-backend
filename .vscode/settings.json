@@ -1,0 +1,12 @@
+{
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}",
+        "${workspaceFolder}/app"
+    ],
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "${workspaceFolder}"
+    },
+    "terminal.integrated.cwd": "${workspaceFolder}",
+    "python.envFile": "${workspaceFolder}/.env",
+    "jupyter.notebookFileRoot": "${workspaceFolder}"
+}
