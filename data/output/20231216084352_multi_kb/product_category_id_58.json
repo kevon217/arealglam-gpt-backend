@@ -1,0 +1,32 @@
+{
+    "data": [
+        {
+            "id": 40,
+            "product_category_id": 58,
+            "image": "https://static.zara.net/photos///2023/I/0/1/p/3564/110/611/2/w/563/3564110611_6_1_1.jpg?ts=1684484252324",
+            "multi_image": "[\"https:\\/\\/static.zara.net\\/photos\\/\\/\\/2023\\/I\\/0\\/1\\/p\\/3564\\/110\\/611\\/2\\/w\\/563\\/3564110611_1_1_1.jpg?ts=1684406394737\",\"\\r\\nhttps:\\/\\/static.zara.net\\/photos\\/\\/\\/2023\\/I\\/0\\/1\\/p\\/3564\\/110\\/611\\/2\\/w\\/563\\/3564110611_2_1_1.jpg?ts=1684406394568\",\"\\r\\nhttps:\\/\\/static.zara.net\\/photos\\/\\/\\/2023\\/I\\/0\\/1\\/p\\/3564\\/110\\/611\\/2\\/w\\/563\\/3564110611_2_2_1.jpg?ts=1684406394630\",\"\\r\\nhttps:\\/\\/static.zara.net\\/photos\\/\\/\\/2023\\/I\\/0\\/1\\/p\\/3564\\/110\\/611\\/2\\/w\\/563\\/3564110611_6_3_1.jpg?ts=1684484255317\",\"\\r\\nhttps:\\/\\/static.zara.net\\/photos\\/\\/\\/2023\\/I\\/0\\/1\\/p\\/3564\\/110\\/611\\/2\\/w\\/563\\/3564110611_2_4_1.jpg?ts=1684406389660\"]",
+            "name": "Zara Pleated Ruffled Slip Dress",
+            "pdesc": "The Zara Pleated Ruffled Slip Dress, a stunning embodiment of contemporary elegance, is a must-have addition to any fashion-forward wardrobe. This exquisite piece, meticulously crafted by the renowned fashion house Zara, is designed to captivate and charm, ensuring you stand out at any event.\r\n\r\nAs you glide into the room, the dress\u2019s fluid silhouette will effortlessly catch every eye. The lightweight fabric, chosen for both its comfort and grace, cascades down in a series of delicate pleats, each one catching the light to create a subtle yet captivating shimmer. The dress's unique texture is complemented by the soft, neutral color palette, making it an ideal choice for a variety of occasions, from sophisticated evening events to chic daytime gatherings.\r\n\r\nOne of the most striking features of this dress is its intricately designed ruffled neckline. This detail adds a touch of whimsy and romance, framing the face and adding a dimensional aspect to the garment. Whether paired with minimalistic jewelry or statement pieces, this neckline is a versatile canvas for personal expression.\r\n\r\nFurther enhancing its allure, the dress boasts an elegant slip design, a timeless style that harkens back to the classic era of fashion while remaining firmly grounded in modern sensibilities. This choice of cut ensures a flattering fit for a range of body types, skimming the figure gracefully and highlighting natural curves without constriction.\r\n\r\nThe Zara Pleated Ruffled Slip Dress is more than just an item of clothing; it's a statement of style and confidence. It\u2019s designed for the woman who appreciates fashion as an art form, who views her wardrobe as a reflection of her unique personality and spirit. Whether attending a glamorous party, an intimate dinner, or a high-profile event, this dress promises to make an unforgettable impression.",
+            "price": "69.90",
+            "video_link": "https://www.youtube.com/watch?v=DvDpj-4FPog&ab_channel=zara",
+            "visit_link": "https://www.zara.com/us/en/pleated-ruffled-slip-dress-p03564110.html",
+            "rating": 0,
+            "rating_count": 0,
+            "rating_user": 0,
+            "rating_user_list": null,
+            "created_at": "2023-11-26T21:26:25.000000Z",
+            "updated_at": "2023-11-26T21:26:25.000000Z",
+            "image_src": "",
+            "status": 1,
+            "product_category": {
+                "id": 58,
+                "image": null,
+                "name": "Cocktail Dresses",
+                "created_at": "2023-11-10T13:45:40.000000Z",
+                "updated_at": "2023-11-10T13:45:40.000000Z",
+                "image_src": null
+            },
+            "save_product": []
+        }
+    ]
+}

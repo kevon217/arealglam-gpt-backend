@@ -1,0 +1,60 @@
+{
+    "data": [
+        {
+            "id": 28,
+            "product_category_id": 44,
+            "image": "https://www.lancome-usa.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-lancome-us-master-catalog/default/dw086b0797/lan_make_hypnose-le8_launch-inter-22_nm_nude-palette-L8_1-1_RVB_RVB%5B1%5D.jpg?sw=563&sh=563&sm=cut&sfrm=jpeg&q=70",
+            "multi_image": "[\"https:\\/\\/www.lancome-usa.com\\/dw\\/image\\/v2\\/AANG_PRD\\/on\\/demandware.static\\/-\\/Sites-lancome-us-master-catalog\\/default\\/dw7ac3ef1e\\/Lancome-Eyeshadow-Hypnose-Palette-5-Couleurs-18-000-3614273370257-Open.jpg?sw=563&sh=563&sm=cut&sfrm=jpeg&q=70\",\"\\r\\nhttps:\\/\\/www.lancome-usa.com\\/dw\\/image\\/v2\\/AANG_PRD\\/on\\/demandware.static\\/-\\/Sites-lancome-us-master-catalog\\/default\\/dw52116bf0\\/lan_make_hypnose-le8_launch-inter-22_beaute_L8-nude-palette-beauty-look-eyeclosed2_1_1-RVB.jpg?sw=563&sh=563&sm=cut&sfrm=jpeg&q=70\",\"\\r\\nhttps:\\/\\/www.lancome-usa.com\\/dw\\/image\\/v2\\/AANG_PRD\\/on\\/demandware.static\\/-\\/Sites-lancome-us-master-catalog\\/default\\/dwec9e2788\\/lan_make_hypnose-le8_launch-inter-22_beaute_L8-nude-palette-armswatch_1-1_RVB.jpg?sw=563&sh=563&sm=cut&sfrm=jpeg&q=70\",\"\\r\\nhttps:\\/\\/www.lancome-usa.com\\/dw\\/image\\/v2\\/AANG_PRD\\/on\\/demandware.static\\/-\\/Sites-lancome-us-master-catalog\\/default\\/dw904036a1\\/Lancome-Eyeshadow-Hypnose-Palette-5-Couleurs-18-000-3614273370257-Swatch.jpg?sw=563&sh=563&sm=cut&sfrm=jpeg&q=70\",\"\\r\\nhttps:\\/\\/www.lancome-usa.com\\/dw\\/image\\/v2\\/AANG_PRD\\/on\\/demandware.static\\/-\\/Sites-lancome-us-master-catalog\\/default\\/dw62797c41\\/lan_make_hypnose-le8_launch-inter-22_beaute_L8-nude-palette-beauty-look-attitude2-1_1-RVB.jpg?sw=563&sh=563&sm=cut&sfrm=jpeg&q=70\"]",
+            "name": "Hypnose 5-Color Eyeshadow Palette",
+            "pdesc": "Introducing the Lanc\u00f4me Hypnose 5-Color Eyeshadow Palette, an exquisite creation that encapsulates the essence of elegance and versatility in makeup artistry. This luxurious palette, designed by the esteemed French cosmetics brand Lanc\u00f4me, is a must-have for anyone seeking to elevate their eye makeup to a level of sophistication and allure.\r\n\r\nEncased in a sleek and stylish compact, the Hypnose 5-Color Eyeshadow Palette offers a harmonious blend of five long-wearing, highly pigmented shadows. Each shade is carefully selected to ensure a wide range of looks, from a subtle, natural daytime appearance to a dramatic, smoky evening eye. The palette features an array of browns and nudes, meticulously crafted to complement and enhance every skin tone. Whether you are aiming for a soft, understated elegance or a bold, statement look, this palette provides the tools to achieve it with ease.\r\n\r\nThe eyeshadows themselves boast a remarkable formula, renowned for its smooth, velvety texture that glides effortlessly onto the eyelids. This seamless application allows for easy blending and layering, enabling both makeup beginners and seasoned professionals to create flawless looks. The intense color payoff ensures that each hue stands out, delivering impactful and lasting impressions.\r\n\r\nWhat sets the Lanc\u00f4me Hypnose 5-Color Eyeshadow Palette apart is its commitment to quality and luxury. Each shade is infused with a special blend of ingredients that not only ensures a long-lasting wear but also cares for the delicate skin around the eyes. The result is a comfortable, crease-free finish that stays put throughout the day or night, keeping your look fresh and impeccable.\r\n\r\nPerfect for anyone who values high-quality, versatile makeup, this palette is an essential addition to any beauty collection. Whether gifting it to a loved one or treating yourself, the Lanc\u00f4me Hypnose 5-Color Eyeshadow Palette is more than just makeup\u2014it's an experience in elegance and beauty, promising to transform your makeup routine into a moment of pure luxury.",
+            "price": "42.00",
+            "video_link": "https://www.youtube.com/watch?v=iYv_g4oykDs&ab_channel=LancomeUSA",
+            "visit_link": "https://www.lancome-usa.com/makeup/eye-makeup/hypnose-5-color-eyeshadow-palette/LAN377.html",
+            "rating": 5,
+            "rating_count": 5,
+            "rating_user": 1,
+            "rating_user_list": ",21",
+            "created_at": "2023-11-21T13:15:10.000000Z",
+            "updated_at": "2023-11-25T19:25:20.000000Z",
+            "image_src": "",
+            "status": 1,
+            "product_category": {
+                "id": 44,
+                "image": null,
+                "name": "Eyeshadow Palettes",
+                "created_at": "2023-11-10T13:43:30.000000Z",
+                "updated_at": "2023-11-10T13:43:30.000000Z",
+                "image_src": null
+            },
+            "save_product": []
+        },
+        {
+            "id": 17,
+            "product_category_id": 44,
+            "image": "https://imagestoreretrieval.aspos.nl/Product/Front/190520/cc182580-65f9-41da-96b7-57294a681b39.jpg",
+            "multi_image": "[\"https:\\/\\/imagestoreretrieval.aspos.nl\\/Product\\/Image_2\\/190520\\/3cdd8026-4549-4f37-b3ec-cd7631406ccc.jpg\",\"\\r\\nhttps:\\/\\/imagestoreretrieval.aspos.nl\\/Product\\/Image_3\\/190520\\/bee39d31-9242-44eb-9d49-a7c8fd7ba2f1.jpg\",\"\\r\\nhttps:\\/\\/cdn.media.amplience.net\\/v\\/tom_ford\\/T1EL_NUDEDIP_OS_V\\/thumbs\\/40f14288-ba1a-4505-867a-20c409c29016?w=300\",\"\\r\\nhttps:\\/\\/myer-media.com.au\\/wcsstore\\/MyerCatalogAssetStore\\/images\\/15\\/151\\/1673\\/102\\/1\\/116370730\\/116370730_Colour_116365420_2_720x928.webp\",\"\\r\\nhttps:\\/\\/cdn-images.milanstyle.com\\/fit-in\\/630x900\\/filters:quality(100)\\/spree\\/images\\/attachments\\/007\\/173\\/031\\/original\\/tom-ford-runway-eye-color-quad-colour-43-ambrosia-harvey-nichols-photo.jpg\"]",
+            "name": "Beauty Eye Color Quad In 43 Ambrosia",
+            "pdesc": "The Tom Ford Beauty Eye Color Quad in 43 Ambrosia is an exquisite embodiment of luxury and sophistication in the realm of eyeshadows. This palette, crafted by the esteemed Tom Ford, is a tribute to the daring and vivid hues often seen on high-fashion runways. \r\n\r\nEach quad houses a harmonious blend of four opulent shades, themed around the rich and tantalizing tones of plum and berry. These shades are designed to create a range of looks, from a subtle, understated elegance to a bold, statement-making eye.\r\n\r\nWhat sets the Ambrosia Quad apart is its unparalleled formulation. Each shadow is talc-free, ensuring a smooth, velvety texture that glides effortlessly onto the eyelids. The colors are intensely pigmented, offering the ability to build from a sheer wash of color to a more dramatic effect with ease. The palette's longevity is impressive \u2013 the shadows are long-wearing and resistant to creasing, making them ideal for extended wear, whether for daily use or special occasions.\r\n\r\nThe color curation in this quad is thoughtfully designed to cater to a variety of skin tones and preferences. The plum and berry hues are universally flattering, capable of adding warmth and depth to the eyes. The finish of each shadow varies, ranging from matte to shimmer, providing versatility and allowing for creative freedom in makeup artistry.\r\n\r\nThe packaging of the Tom Ford Beauty Eye Color Quad is as luxurious as its contents. Housed in a sleek, elegant case with the signature Tom Ford logo, it is a statement piece in itself. This makes it not just a makeup product but also a collectible item for beauty enthusiasts.",
+            "price": "85,00",
+            "video_link": "https://www.youtube.com/watch?v=_tsOR4GQkQY&ab_channel=TOMFORD",
+            "visit_link": "https://www.tomford.com/eye-color-quad/T1EL.html",
+            "rating": 5,
+            "rating_count": 5,
+            "rating_user": 1,
+            "rating_user_list": ",20",
+            "created_at": "2023-11-16T13:14:56.000000Z",
+            "updated_at": "2023-11-25T21:43:56.000000Z",
+            "image_src": "",
+            "status": 1,
+            "product_category": {
+                "id": 44,
+                "image": null,
+                "name": "Eyeshadow Palettes",
+                "created_at": "2023-11-10T13:43:30.000000Z",
+                "updated_at": "2023-11-10T13:43:30.000000Z",
+                "image_src": null
+            },
+            "save_product": []
+        }
+    ]
+}

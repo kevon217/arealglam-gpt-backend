@@ -1,0 +1,12 @@
+Product ID: 39
+Name: Basis NAD+ Supplement for Cellular Aging
+Description: 'Basis by Elysium Health is a dietary supplement designed to revolutionize the approach to cellular aging. Central to its formulation is the enhancement of Nicotinamide Adenine Dinucleotide (NAD+), a vital coenzyme in every cell of the body. NAD+ is crucial for cellular metabolism, energy production, and DNA repair. However, as we age, the levels of NAD+ naturally decline, leading to the various signs of aging and reduced cellular function. Basis aims to counteract this by replenishing NAD+ levels, thereby promoting better overall health and longevity.
+
+The supplement features Nicotinamide Riboside, a NAD+ precursor, which is scientifically proven to raise NAD+ levels efficiently in the body. This increase in NAD+ supports critical cellular functions and aids in rejuvenating cells from the inside, contributing to improved vitality and health. Additionally, Basis includes Pterostilbene, a powerful antioxidant that complements the action of Nicotinamide Riboside, further enhancing the supplement's effectiveness in fighting the signs of aging at the cellular level.
+
+Regular use of Basis is said to result in numerous health benefits, including improved energy levels, enhanced cellular repair and maintenance, and better overall metabolic health. These benefits contribute to a feeling of rejuvenation and vitality, particularly for those experiencing age-related decline in energy and health.
+
+Elysium Health has grounded Basis in scientific research, ensuring its safety and effectiveness. This focus on science-backed ingredients and results makes Basis a reliable choice for those seeking to proactively manage their health as they age. The supplement is designed to be easily integrated into daily routines, making it accessible for individuals with busy lifestyles who are looking to invest in their long-term health and wellness. Overall, Basis by Elysium Health represents a proactive step towards maintaining vitality and combating the effects of aging at a cellular level.'
+Price: 40
+Category ID: 57
+Category Name: Healthspan Treatments

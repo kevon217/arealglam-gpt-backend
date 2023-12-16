@@ -1,0 +1,48 @@
+{
+    "data": [
+        {
+            "id": 39,
+            "product_category_id": 57,
+            "image": "https://www.elysiumhealth.com/cdn/shop/files/BasisHeroImage_grey3_1000x.jpg?v=1698763280",
+            "multi_image": "[\"https:\\/\\/www.elysiumhealth.com\\/cdn\\/shop\\/files\\/Basis_Capsule_Closeup_900x.jpg?v=1628103379\",\"\\r\\nhttps:\\/\\/www.elysiumhealth.com\\/cdn\\/shop\\/files\\/Basis_Floating_Blue_Wide_1728x.jpg?v=1628617481\",\"\\r\\nhttps:\\/\\/www.elysiumhealth.com\\/cdn\\/shop\\/files\\/What_is_NAD_Thumbnail_540x.jpg?v=1628622593\",\"\\r\\nhttps:\\/\\/www.elysiumhealth.com\\/cdn\\/shop\\/files\\/day_30_square.png?v=1684931423\",\"\\r\\nhttps:\\/\\/www.elysiumhealth.com\\/cdn\\/shop\\/files\\/Customer-Journey-Basis-Day_365-sm.jpg?v=1692205900\"]",
+            "name": "Basis NAD+ Supplement for Cellular Aging",
+            "pdesc": "Basis by Elysium Health is a dietary supplement designed to revolutionize the approach to cellular aging. Central to its formulation is the enhancement of Nicotinamide Adenine Dinucleotide (NAD+), a vital coenzyme in every cell of the body. NAD+ is crucial for cellular metabolism, energy production, and DNA repair. However, as we age, the levels of NAD+ naturally decline, leading to the various signs of aging and reduced cellular function. Basis aims to counteract this by replenishing NAD+ levels, thereby promoting better overall health and longevity.\r\n\r\nThe supplement features Nicotinamide Riboside, a NAD+ precursor, which is scientifically proven to raise NAD+ levels efficiently in the body. This increase in NAD+ supports critical cellular functions and aids in rejuvenating cells from the inside, contributing to improved vitality and health. Additionally, Basis includes Pterostilbene, a powerful antioxidant that complements the action of Nicotinamide Riboside, further enhancing the supplement's effectiveness in fighting the signs of aging at the cellular level.\r\n\r\nRegular use of Basis is said to result in numerous health benefits, including improved energy levels, enhanced cellular repair and maintenance, and better overall metabolic health. These benefits contribute to a feeling of rejuvenation and vitality, particularly for those experiencing age-related decline in energy and health.\r\n\r\nElysium Health has grounded Basis in scientific research, ensuring its safety and effectiveness. This focus on science-backed ingredients and results makes Basis a reliable choice for those seeking to proactively manage their health as they age. The supplement is designed to be easily integrated into daily routines, making it accessible for individuals with busy lifestyles who are looking to invest in their long-term health and wellness. Overall, Basis by Elysium Health represents a proactive step towards maintaining vitality and combating the effects of aging at a cellular level.",
+            "price": "40",
+            "video_link": "https://cdn.shopify.com/videos/c/vp/0e785e02a9b74f6facbf2202b8ec4d8e/0e785e02a9b74f6facbf2202b8ec4d8e.SD-480p-0.9Mbps-17388634.mp4",
+            "visit_link": "https://www.elysiumhealth.com/products/basis",
+            "rating": 0,
+            "rating_count": 0,
+            "rating_user": 0,
+            "rating_user_list": null,
+            "created_at": "2023-11-26T21:16:26.000000Z",
+            "updated_at": "2023-11-26T21:16:26.000000Z",
+            "image_src": "",
+            "status": 1,
+            "product_category": {
+                "id": 57,
+                "image": null,
+                "name": "Healthspan Treatments",
+                "created_at": "2023-11-10T13:45:35.000000Z",
+                "updated_at": "2023-11-10T13:45:35.000000Z",
+                "image_src": null
+            },
+            "save_product": [
+                {
+                    "id": 121,
+                    "user_id": 18,
+                    "product_id": 39,
+                    "created_at": "2023-12-09T15:46:47.000000Z",
+                    "updated_at": "2023-12-09T15:46:47.000000Z",
+                    "user": {
+                        "id": 18,
+                        "name": "Nico Terrile",
+                        "email": "vestvers@gmail.com",
+                        "email_verified_at": null,
+                        "created_at": "2023-11-08T13:06:49.000000Z",
+                        "updated_at": "2023-11-08T13:06:49.000000Z"
+                    }
+                }
+            ]
+        }
+    ]
+}

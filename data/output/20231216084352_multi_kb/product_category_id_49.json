@@ -1,0 +1,48 @@
+{
+    "data": [
+        {
+            "id": 33,
+            "product_category_id": 49,
+            "image": "https://cdn.shopify.com/s/files/1/0022/4008/6074/products/VW444-LHBK_4_0940c297-979c-4d3d-b409-a1c529bb027d_800x_crop_center.jpg.webp?v=1695836806&width=1200&height=1500&crop=center",
+            "multi_image": "[\"https:\\/\\/cdn.shopify.com\\/s\\/files\\/1\\/0022\\/4008\\/6074\\/products\\/VW444-LHBK_1_463599fc-d757-4587-b134-854bfaf3012e_800x_crop_center.jpg.webp?v=1695836806&width=1200&height=1500&crop=center\",\"\\r\\nhttps:\\/\\/cdn.shopify.com\\/s\\/files\\/1\\/0022\\/4008\\/6074\\/products\\/VW444-LHBK_3_4c80e5c5-7968-4afe-a48d-87b7c2958563_800x_crop_center.jpg.webp?v=1688709920&width=1200&height=1500&crop=center\",\"\\r\\nhttps:\\/\\/cdn.shopify.com\\/s\\/files\\/1\\/0022\\/4008\\/6074\\/products\\/2048x2048-Detail-CleanElevation_800x_crop_center.jpg.webp?v=1688709921&width=1200&height=1500&crop=center\",\"\\r\\nhttps:\\/\\/cdn.shopify.com\\/s\\/files\\/1\\/0022\\/4008\\/6074\\/files\\/VW444HHZ_SP24_W_ECOMM_PANTS_FULL_2_v2_800x_crop_center.jpg.webp?v=1699380424&width=1200&height=1500&crop=center\",\"\\r\\nhttps:\\/\\/cdn.shopify.com\\/s\\/files\\/1\\/0022\\/4008\\/6074\\/files\\/VW444HHZ_SP24_W_ECOMM_PANTS_FRONT_BOTTOMS_1_v2_800x_crop_center.jpg.webp?v=1699380424&width=1200&height=1500&crop=center\"]",
+            "name": "Vuori Clean Elevation Legging",
+            "pdesc": "The Vuori Clean Elevation Legging is a top-tier choice for anyone seeking a blend of style, comfort, and functionality in their activewear. Crafted with a focus on sustainability, these leggings are made from high-quality, eco-friendly materials, ensuring both durability and eco-conscious fashion.\r\n\r\nFeaturing a sleek and modern design, the leggings come with a flattering high waist that provides excellent support and coverage. The fit is snug yet comfortable, allowing for a full range of motion whether you're engaged in yoga, running, or any high-intensity workout. The material is moisture-wicking and quick-drying, keeping you cool and dry during the most strenuous activities.\r\n\r\nOne of the standout features of the Vuori Clean Elevation Legging is its versatility. These leggings are not just for the gym or yoga studio; their stylish design makes them perfect for casual wear or running errands around town. The subtle, yet chic aesthetic pairs well with a variety of tops, making it a versatile addition to your wardrobe.\r\n\r\nIn terms of functionality, these leggings boast practical elements like a hidden pocket for storing small essentials, such as keys or cards, making them ideal for those who are always on the move. The fabric is also designed to resist pilling and maintain its shape and color over time, even after multiple washes.\r\n\r\nThe Vuori Clean Elevation Legging stands out for its comfort, style, and sustainability, making it an ideal choice for the environmentally conscious consumer who doesn't want to compromise on performance or fashion. These leggings are a testament to the brand's commitment to quality and eco-friendly practices, offering a premium product that meets the needs of the modern, active woman.",
+            "price": "98",
+            "video_link": "https://www.youtube.com/watch?v=6qrLtVLk2Js&ab_channel=TheMomEdit",
+            "visit_link": "https://vuoriclothing.com/products/womens-clean-elevation-legging-black-heather",
+            "rating": 5,
+            "rating_count": 5,
+            "rating_user": 1,
+            "rating_user_list": ",20",
+            "created_at": "2023-11-23T17:25:43.000000Z",
+            "updated_at": "2023-11-24T14:22:02.000000Z",
+            "image_src": "",
+            "status": 1,
+            "product_category": {
+                "id": 49,
+                "image": null,
+                "name": "Leggings",
+                "created_at": "2023-11-10T13:44:08.000000Z",
+                "updated_at": "2023-11-10T13:44:08.000000Z",
+                "image_src": null
+            },
+            "save_product": [
+                {
+                    "id": 111,
+                    "user_id": 16,
+                    "product_id": 33,
+                    "created_at": "2023-11-24T12:44:34.000000Z",
+                    "updated_at": "2023-11-24T12:44:34.000000Z",
+                    "user": {
+                        "id": 16,
+                        "name": "nico T",
+                        "email": "nicoterrile92@gmail.com",
+                        "email_verified_at": null,
+                        "created_at": "2023-11-08T13:05:59.000000Z",
+                        "updated_at": "2023-11-08T13:05:59.000000Z"
+                    }
+                }
+            ]
+        }
+    ]
+}

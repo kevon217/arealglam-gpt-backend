@@ -1,0 +1,16 @@
+Product ID: 22
+Name: NYX Professional Makeup Suede Matte Lipstick
+Description: 'The NYX Professional Makeup Suede Matte Lipstick is a trailblazer in the beauty industry, offering a fusion of high-quality, comfort, and style. This product is not just a lipstick; it's an experience for those who cherish both beauty and ethical standards.
+
+With an impressive range of 35 shades, this lipstick caters to every palette - from bold, statement colors to subtle, everyday hues. Each shade is richly pigmented, ensuring vibrant, consistent color that accentuates your lips with every application. Whether you're aiming for a standout look for special occasions or a natural enhancement for daily wear, there's a shade tailored to every style and mood.
+
+What sets this lipstick apart is its exceptional matte formula. Traditional matte lipsticks often come with drawbacks like dryness and uneven application, but the NYX Suede Matte Lipstick breaks the mold. Its creamy texture glides smoothly over the lips, offering full yet lightweight coverage. This comfortable feel, combined with a long-lasting formula, minimizes the need for frequent touch-ups, making it ideal for extended wear.
+
+The design of the lipstick itself is both practical and elegant. Encased in a sleek, heart-adorned package, it's a symbol of sophistication and fun. The bullet shape allows for precise application, ensuring flawless coverage every time.
+
+Furthermore, the lipstick's vegan formula speaks to the brand's commitment to cruelty-free beauty. This aspect not only enhances its appeal but also aligns with the values of socially conscious consumers.
+
+In summary, the NYX Professional Makeup Suede Matte Lipstick is more than just a makeup product. Its diverse color range, luxurious formula, chic packaging, and ethical standards make it an irresistible choice for anyone looking to elevate their beauty routine. It's a perfect blend of style, comfort, and responsibility, making it a must-have in every makeup enthusiast's collection.'
+Price: 9.00
+Category ID: 38
+Category Name: Lipsticks

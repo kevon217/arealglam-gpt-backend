@@ -1,0 +1,32 @@
+{
+    "data": [
+        {
+            "id": 25,
+            "product_category_id": 41,
+            "image": "https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1618318804/658551_96IWG_8745_001_056_0000_Light-Ophidia-GG-mini-bag.jpg",
+            "multi_image": "[\"https:\\/\\/media.gucci.com\\/style\\/DarkGray_Center_0_0_1200x1200\\/1694622689\\/658551_96IWG_8745_003_100_0000_Light-Ophidia-GG-mini-bag.jpg\",\"\\r\\nhttps:\\/\\/cdn-images.farfetch-contents.com\\/16\\/63\\/93\\/80\\/16639380_33869423_600.jpg\",\"\\r\\nhttps:\\/\\/www.dallasdesignerhandbags.com\\/cdn\\/shop\\/products\\/DSC_5691_clipped_rev_1.jpg?v=1668629031\",\"\\r\\nhttps:\\/\\/encrypted-tbn0.gstatic.com\\/images?q=tbn:ANd9GcQlRUFAi2d6Y0wbWLkRSCgmxFAvDu7sJI7sPn0oHuF5HHHedku_LItzYsKKIQYmVShogcA&usqp=CAU\",\"\\r\\nhttps:\\/\\/encrypted-tbn0.gstatic.com\\/images?q=tbn:ANd9GcSIiXNK31MW8ScmRk9D6CcwHU-yprLpLknBhK30jI77V2886mhIPVZ7DwU9pOP0MRvBV9k&usqp=CAU\"]",
+            "name": "Gucci Ophidia Mini GG-Supreme Canvas Shoulder Bag",
+            "pdesc": "The Gucci Ophidia Mini GG-Supreme Canvas Shoulder Bag is an emblem of timeless luxury and a testament to impeccable craftsmanship, blending the rich heritage of Gucci with contemporary style. This exquisite piece, measuring approximately 7.5\"W x 5.5\"H x 2.5\"D, is perfectly sized for the fashion-forward individual seeking both elegance and functionality in their accessories.\r\n\r\nCrafted from the iconic GG-Supreme canvas, the bag showcases Gucci's historical GG pattern in a beige/ebony combination, offering a classic yet versatile look that transcends seasons. This high-quality canvas is not only durable but also environmentally conscious, aligning with the modern demand for sustainable fashion choices.\r\n\r\nThe bag's distinct design is further accentuated by its luxurious brown leather trim, which adds a touch of sophistication and durability. Its gold-toned hardware complements the canvas and leather beautifully, including the Double G\u2014an archival symbol of the House\u2014adorned on the front. This emblematic feature connects the bag to Gucci's deep roots while keeping it firmly anchored in contemporary style.\r\n\r\nThe Ophidia Mini comes with a practical and adjustable leather strap, allowing for comfortable shoulder or crossbody wear, making it ideal for both casual and formal occasions. The zipper closure opens to reveal a surprisingly spacious interior, lined with cotton-linen fabric, and includes a smartphone pocket, ensuring that essentials are organized and easily accessible.\r\n\r\nAdditional details like the green and red Web stripe, another hallmark of Gucci's heritage, give this bag a unique and recognizable appearance. This stripe runs along the bottom of the bag, offering a splash of color and a nod to the brand's equestrian-inspired origins.\r\n\r\nThe Gucci Ophidia Mini GG-Supreme Canvas Shoulder Bag is more than just an accessory; it's a piece of fashion history, a blend of tradition and modernity, making it a must-have for anyone who values style, quality, and the storied legacy of the Gucci brand. Perfect for the discerning fashionista, it's a versatile and stylish addition to any wardrobe, capable of elevating any outfit with its unmistakable Gucci charm.",
+            "price": "1,050",
+            "video_link": "https://media.matchesfashion.com/videos/products/1469516_video_1.mp4",
+            "visit_link": "https://www.gucci.com/us/en/pr/women/handbags/mini-bags-for-women/ophidia-gg-mini-bag-p-65855196IWG8745",
+            "rating": 5,
+            "rating_count": 5,
+            "rating_user": 1,
+            "rating_user_list": ",21",
+            "created_at": "2023-11-19T21:30:47.000000Z",
+            "updated_at": "2023-11-25T19:25:24.000000Z",
+            "image_src": "",
+            "status": 1,
+            "product_category": {
+                "id": 41,
+                "image": null,
+                "name": "Shoulder Bags",
+                "created_at": "2023-11-10T13:43:05.000000Z",
+                "updated_at": "2023-11-10T13:43:05.000000Z",
+                "image_src": null
+            },
+            "save_product": []
+        }
+    ]
+}

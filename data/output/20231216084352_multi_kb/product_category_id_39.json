@@ -1,0 +1,107 @@
+{
+    "data": [
+        {
+            "id": 23,
+            "product_category_id": 39,
+            "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_790/01/nm_4658583_100106_e",
+            "multi_image": "[\"https:\\/\\/img.mytheresa.com\\/1094\\/1236\\/90\\/jpeg\\/catalog\\/product\\/9c\\/P00858726.jpg\",\"\\r\\nhttps:\\/\\/img.mytheresa.com\\/1094\\/1236\\/90\\/jpeg\\/catalog\\/product\\/9c\\/P00858726_d4.jpg\",\"\\r\\nhttps:\\/\\/cdn-images.farfetch-contents.com\\/21\\/31\\/49\\/90\\/21314990_51217401_1000.jpg\",\"\\r\\nhttps:\\/\\/cdn.endource.com\\/image\\/294bc2641a6ff42f85b9fa7c764772d7\\/detail\\/saint-laurent-lee-110-buckled-patent-leather-pumps.jpg?optimizer=image&class=800\",\"\\r\\nhttps:\\/\\/cdn-images.farfetch-contents.com\\/21\\/31\\/49\\/90\\/21314990_51217409_322.jpg\"]",
+            "name": "Saint Laurent Lee Pumps",
+            "pdesc": "The Saint Laurent Lee Pumps stand as an emblem of luxurious elegance and bold fashion statements, a must-have for those who appreciate the allure of high-end fashion. Crafted with meticulous attention to detail, these pumps are a testament to Saint Laurent's renowned craftsmanship and sophisticated design philosophy.\r\n\r\nAt the heart of the Saint Laurent Lee Pumps' appeal is their exquisite patent-leather finish, which gleams with a polished sheen. This high-quality material not only ensures durability but also imparts a sleek, refined look that catches the eye. The leather's texture and shine make these pumps a versatile choice, seamlessly transitioning from day to night and complementing a wide range of outfits.\r\n\r\nAdding to their distinctiveness is the metallic buckle adorning the ankle strap. This detail is not just functional but also serves as a striking decorative element, enhancing the overall aesthetic of the shoe. The buckle's gleaming presence offers a subtle yet impactful contrast to the smooth patent leather, creating an elegant interplay of textures and finishes.\r\n\r\nThe sculptural heels of the Saint Laurent Lee Pumps are another standout feature. These towering heels are expertly designed to offer both height and stability, ensuring that the wearer can walk with confidence and comfort. The heel's unique shape adds an artistic touch to the shoe, making it a piece of wearable art that is sure to turn heads.\r\n\r\nFurthermore, these pumps embody the essence of contemporary fashion with a nod to timeless elegance. The Saint Laurent Lee Pumps are versatile enough to pair with everything from tailored trousers and pencil skirts to cocktail dresses and evening gowns. They are the perfect choice for those seeking to make a statement at high-profile events, important meetings, or elegant evenings out.",
+            "price": "1,090",
+            "video_link": "https://www.youtube.com/watch?v=SjTjaCooCuo&ab_channel=SaintLaurent",
+            "visit_link": "https://www.ysl.com/en-us/lee-slingback-pumps-in-patent-leather-813134002.html",
+            "rating": 5,
+            "rating_count": 5,
+            "rating_user": 1,
+            "rating_user_list": ",21",
+            "created_at": "2023-11-18T15:51:27.000000Z",
+            "updated_at": "2023-11-25T21:40:29.000000Z",
+            "image_src": "",
+            "status": 1,
+            "product_category": {
+                "id": 39,
+                "image": null,
+                "name": "High Heels",
+                "created_at": "2023-11-10T13:42:49.000000Z",
+                "updated_at": "2023-11-10T13:42:49.000000Z",
+                "image_src": null
+            },
+            "save_product": [
+                {
+                    "id": 106,
+                    "user_id": 20,
+                    "product_id": 23,
+                    "created_at": "2023-11-19T20:44:08.000000Z",
+                    "updated_at": "2023-11-19T20:44:08.000000Z",
+                    "user": {
+                        "id": 20,
+                        "name": "Dave Waldorf",
+                        "email": "dave.waldorf@me.com",
+                        "email_verified_at": null,
+                        "created_at": "2023-11-15T21:43:48.000000Z",
+                        "updated_at": "2023-11-15T21:43:48.000000Z"
+                    }
+                },
+                {
+                    "id": 107,
+                    "user_id": 17,
+                    "product_id": 23,
+                    "created_at": "2023-11-21T10:52:28.000000Z",
+                    "updated_at": "2023-11-21T10:52:28.000000Z",
+                    "user": {
+                        "id": 17,
+                        "name": "Nico Oasis",
+                        "email": "oasisqi2@gmail.com",
+                        "email_verified_at": null,
+                        "created_at": "2023-11-08T13:06:23.000000Z",
+                        "updated_at": "2023-11-08T13:06:23.000000Z"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "product_category_id": 39,
+            "image": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ME762AUR24HPI4BNI64U4WNTGA_size-normalized.JPG&w=1440&impolicy=high_res",
+            "multi_image": "[\"https:\\/\\/static.thcdn.com\\/productimg\\/960\\/960\\/13994469-4765026067547543.jpg\",\"\\r\\nhttps:\\/\\/static.thcdn.com\\/productimg\\/960\\/960\\/13994469-4555026067610612.jpg\",\"\\r\\nhttps:\\/\\/static.thcdn.com\\/productimg\\/960\\/960\\/13994469-1925026067666970.jpg\"]",
+            "name": "Steve Madden",
+            "pdesc": "The Steve Madden Breslin Rhinestone Suede Heeled Sandals are a perfect blend of elegance and contemporary style. Here's a detailed description based on the information provided and from online sources:\r\n\r\nThese sandals come in a delicate lavender suede material that is both soft and aesthetically pleasing. The design is notable for its single band across the toe which is adorned with rhinestone embellishments, adding a touch of glamour and sparkle to the footwear. Moreover, the sandals feature a logo patch and a signature plaque on the outsole which signifies the brand's authenticity.\r\n\r\nThe heel height of these sandals is 4 inches, providing a significant lift while still maintaining a level of comfort for the wearer. They are secured with a buckle fastening which not only ensures a snug fit but also adds a classic touch to the overall design.\r\n\r\nThe Breslin Rhinestone Suede Heeled Sandals are part of Steve Madden's HEELS range, which implies a focus on high-heeled footwear that doesn't compromise on style or comfort.\r\n\r\nAdditionally, online reviews and descriptions highlight the classy appeal of these sandals. They are fabricated to convey an elegant sense of allure, perfectly complementing classy outfits. The slim stiletto heels along with the rhinestone embellishments exhibit a stylish appeal in a two-piece design that's hard to ignore.\r\n\r\nThe sparkling rhinestone embellishment on these sandals elevates them to a level of fancy footwork, making them an elegantly stilettoed dress shoe choice. Moreover, the inspiration behind Steve Madden's designs, as noted, revolves around the energy of New York City, rock 'n' roll, and global explorations, which are reflected in the stylish and bold designs of the Breslin Rhinestone Suede Heeled Sandals.\r\n\r\nThis pair of sandals embodies the modern woman's desire for footwear that is both fashionable and functional. The Steve Madden Breslin Rhinestone Suede Heeled Sandals are not just a pair of shoes, but a statement of style and elegance.",
+            "price": "91.5",
+            "video_link": "https://www.youtube.com/watch?v=dCtU-0BehBk&ab_channel=ShopZappos",
+            "visit_link": "https://www.allsole.com/footwear/steve-madden-breslin-rhinestone-suede-heeled-sandals/13994469.html?switchcurrency=USD&shippingcountry=US&affil=awin&utm_content=Lyst&utm_term=Comparison%20Shopping%20Service%20%28CSS%29&utm_source=AWin-104504&utm_medium=affiliate&utm_campaign=AffiliateWin&awc=6210_1699112094_aa3945731d3aab213b717fd080b3e3c4",
+            "rating": 4,
+            "rating_count": 16,
+            "rating_user": 4,
+            "rating_user_list": ",9,12,13,7",
+            "created_at": "2023-11-07T11:28:36.000000Z",
+            "updated_at": "2023-11-23T14:35:31.000000Z",
+            "image_src": "1699796562.jpg",
+            "status": 1,
+            "product_category": {
+                "id": 39,
+                "image": null,
+                "name": "High Heels",
+                "created_at": "2023-11-10T13:42:49.000000Z",
+                "updated_at": "2023-11-10T13:42:49.000000Z",
+                "image_src": null
+            },
+            "save_product": [
+                {
+                    "id": 89,
+                    "user_id": 8,
+                    "product_id": 10,
+                    "created_at": "2023-11-08T14:29:56.000000Z",
+                    "updated_at": "2023-11-08T14:29:56.000000Z",
+                    "user": {
+                        "id": 8,
+                        "name": "Zaid Kashan",
+                        "email": "zaidnexodev123@gmail.com",
+                        "email_verified_at": null,
+                        "created_at": "2023-10-25T16:16:32.000000Z",
+                        "updated_at": "2023-10-25T16:16:32.000000Z"
+                    }
+                }
+            ]
+        }
+    ]
+}

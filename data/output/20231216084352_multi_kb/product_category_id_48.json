@@ -1,0 +1,48 @@
+{
+    "data": [
+        {
+            "id": 32,
+            "product_category_id": 48,
+            "image": "https://thefrankieshop.com/cdn/shop/products/gelso-oversized-blazer-black-blazer-the-frankie-shop-128639.jpg?v=1644407582&width=1944",
+            "multi_image": "[\"https:\\/\\/thefrankieshop.com\\/cdn\\/shop\\/products\\/gelso-oversized-blazer-black-blazer-the-frankie-shop-450637.jpg?v=1644407558&width=1944\",\"\\r\\nhttps:\\/\\/thefrankieshop.com\\/cdn\\/shop\\/products\\/gelso-oversized-blazer-black-blazer-the-frankie-shop-356498.jpg?v=1644407524&width=1944\",\"\\r\\nhttps:\\/\\/thefrankieshop.com\\/cdn\\/shop\\/products\\/gelso-oversized-blazer-black-blazer-the-frankie-shop-523215.jpg?v=1644407533&width=1944\",\"\\r\\nhttps:\\/\\/thefrankieshop.com\\/cdn\\/shop\\/products\\/gelso-oversized-blazer-black-blazer-the-frankie-shop-628978.jpg?v=1644407611&width=1944\",\"\\r\\nhttps:\\/\\/thefrankieshop.com\\/cdn\\/shop\\/products\\/gelso-oversized-blazer-black-blazer-the-frankie-shop-675031.jpg?v=1644407377&width=1944\"]",
+            "name": "Gelso Oversized Tencel Lyocell-Blend Blazer from Frankie Shop",
+            "pdesc": "Introducing the Gelso Oversized Tencel Lyocell-Blend Blazer from Frankie Shop \u2013 a masterpiece of modern fashion that effortlessly combines comfort, style, and sustainability. This blazer is a quintessential piece for those who seek a sophisticated yet relaxed look.\r\n\r\nCrafted from a luxurious blend of Tencel and Lyocell, the fabric is renowned for its smooth texture, breathability, and environmental friendliness. The use of these materials ensures the blazer is not only comfortable to wear but also gentle on the planet. The blazer's oversized silhouette is a nod to contemporary fashion trends, offering a relaxed fit that drapes gracefully over the body, making it suitable for a variety of body types and sizes.\r\n\r\nThe Gelso Blazer features a minimalist design with clean lines that exude elegance. Its versatile off-white hue makes it an ideal piece for pairing with a wide range of outfits \u2013 from casual jeans to more formal attire. The blazer's sophisticated look is further enhanced by its subtle details, such as the neatly tailored lapels and the carefully positioned pockets, which add both functionality and style.\r\n\r\nThis blazer is perfect for those who appreciate a garment that combines fashion-forward design with practicality. Whether you're heading to a business meeting, a casual brunch, or an evening event, the Gelso Oversized Blazer is sure to elevate your ensemble. Its ability to transition seamlessly from a professional setting to a more relaxed atmosphere makes it a valuable addition to any wardrobe.\r\n\r\nThe Frankie Shop's commitment to quality is evident in every stitch of this blazer. It's not just a clothing item; it's an investment in style, comfort, and sustainable fashion. Embrace the blend of modernity and timeless elegance with the Gelso Oversized Tencel Lyocell-Blend Blazer \u2013 a true statement piece for the fashion-conscious individual.",
+            "price": "399",
+            "video_link": "https://www.youtube.com/watch?v=9Nnw9rdNdZU&ab_channel=ThesselyJuliet",
+            "visit_link": "https://thefrankieshop.com/products/gelso-oversized-blazer-black",
+            "rating": 5,
+            "rating_count": 5,
+            "rating_user": 1,
+            "rating_user_list": ",20",
+            "created_at": "2023-11-23T17:21:15.000000Z",
+            "updated_at": "2023-11-24T01:13:54.000000Z",
+            "image_src": "",
+            "status": 1,
+            "product_category": {
+                "id": 48,
+                "image": null,
+                "name": "Blazers",
+                "created_at": "2023-11-10T13:44:02.000000Z",
+                "updated_at": "2023-11-10T13:44:02.000000Z",
+                "image_src": null
+            },
+            "save_product": [
+                {
+                    "id": 110,
+                    "user_id": 20,
+                    "product_id": 32,
+                    "created_at": "2023-11-24T01:50:13.000000Z",
+                    "updated_at": "2023-11-24T01:50:13.000000Z",
+                    "user": {
+                        "id": 20,
+                        "name": "Dave Waldorf",
+                        "email": "dave.waldorf@me.com",
+                        "email_verified_at": null,
+                        "created_at": "2023-11-15T21:43:48.000000Z",
+                        "updated_at": "2023-11-15T21:43:48.000000Z"
+                    }
+                }
+            ]
+        }
+    ]
+}

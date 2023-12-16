@@ -1,0 +1,48 @@
+{
+    "data": [
+        {
+            "id": 20,
+            "product_category_id": 56,
+            "image": "https://www.esteelauder.com/media/export/cms/products/640x640/el_sku_PG5001_640x640_0.jpg",
+            "multi_image": "[\"https:\\/\\/www.esteelauder.com\\/media\\/export\\/cms\\/products\\/640x640\\/el_prod_77491_640x640_1.jpg\",\"\\r\\nhttps:\\/\\/www.esteelauder.com\\/media\\/export\\/cms\\/products\\/640x640\\/el_prod_77491_640x640_0.jpg\",\"\\r\\nhttps:\\/\\/www.esteelauder.com\\/media\\/export\\/cms\\/products\\/640x640\\/el_prod_77491_640x640_2.jpg\",\"\\r\\nhttps:\\/\\/www.esteelauder.com\\/media\\/export\\/cms\\/products\\/640x640\\/el_prod_77491_640x640_3.jpg\",\"\\r\\nhttps:\\/\\/www.esteelauder.com\\/media\\/export\\/cms\\/products\\/640x640\\/el_sku_PG5001_640x640_0.jpg\"]",
+            "name": "Est\u00e9e Lauder Advanced Night Repair",
+            "pdesc": "Est\u00e9e Lauder Advanced Night Repair, often hailed as a revolutionary product in the skincare realm, is a testament to the brand's commitment to cutting-edge skin science. This iconic serum, a pioneer in the beauty industry, first made its debut in 1982 and has since evolved, embodying the essence of innovation with its Advanced Night Repair Synchronized Recovery Complex II.\r\n\r\nThe formulation of this serum is a harmonious blend of science and nature, designed to work in sync with your skin's natural nighttime repair process. Its lightweight fluid texture is engineered to penetrate deeply into the skin, making it suitable for a range of skin types, including dry or sensitive skin. The core of its formulation is the ChronoluxCB Technology, a groundbreaking innovation that stimulates the skin's natural repair process, thereby diminishing the visible signs of aging.\r\n\r\nOne of the key ingredients that set this serum apart is hyaluronic acid, renowned for its hydrating properties. This ingredient plays a crucial role in maintaining skin moisture, ensuring a plump and youthful appearance. Additionally, the serum's efficacy is enhanced by its ability to protect the skin from light and air exposure, thanks to its iconic brown apothecary-style bottle.\r\n\r\nBeyond its hydrating prowess, the Est\u00e9e Lauder Advanced Night Repair serum also focuses on enhancing skin radiance. Its peach-colored fluid is not just a visual delight but a potent mix that works tirelessly to minimize the appearance of fine lines and wrinkles. This is achieved through its ability to boost the skin's natural renewal process overnight, which is when the skin is most receptive to healing.\r\n\r\nIn summary, Est\u00e9e Lauder Advanced Night Repair is more than just a skincare product; it's a legacy of beauty innovation. Its ability to hydrate, renew, and rejuvenate the skin overnight makes it a must-have in any skincare routine, promising a more youthful, radiant complexion with consistent use.",
+            "price": "125.00",
+            "video_link": "https://www.youtube.com/watch?v=h0MgP1tSCGE&ab_channel=Est%C3%A9eLauderUK",
+            "visit_link": "https://www.esteelauder.com/product/689/77491/product-catalog/skincare/repair-serum/advanced-night-repair-serum/synchronized-multi-recovery-complex",
+            "rating": 0,
+            "rating_count": 0,
+            "rating_user": 0,
+            "rating_user_list": null,
+            "created_at": "2023-11-17T18:19:46.000000Z",
+            "updated_at": "2023-11-17T18:19:46.000000Z",
+            "image_src": "",
+            "status": 1,
+            "product_category": {
+                "id": 56,
+                "image": null,
+                "name": "Anti-Aging Treatments",
+                "created_at": "2023-11-10T13:45:16.000000Z",
+                "updated_at": "2023-11-10T13:45:16.000000Z",
+                "image_src": null
+            },
+            "save_product": [
+                {
+                    "id": 103,
+                    "user_id": 20,
+                    "product_id": 20,
+                    "created_at": "2023-11-18T12:09:57.000000Z",
+                    "updated_at": "2023-11-18T12:09:57.000000Z",
+                    "user": {
+                        "id": 20,
+                        "name": "Dave Waldorf",
+                        "email": "dave.waldorf@me.com",
+                        "email_verified_at": null,
+                        "created_at": "2023-11-15T21:43:48.000000Z",
+                        "updated_at": "2023-11-15T21:43:48.000000Z"
+                    }
+                }
+            ]
+        }
+    ]
+}

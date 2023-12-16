@@ -1,0 +1,48 @@
+{
+    "data": [
+        {
+            "id": 37,
+            "product_category_id": 53,
+            "image": "https://media.ilnp.com/uploads/2022/11/ILNP-Ultra-Chrome-Trio.jpg",
+            "multi_image": "[\"https:\\/\\/media.ilnp.com\\/uploads\\/2014\\/05\\/Reminisce-H.jpg\",\"\\r\\nhttps:\\/\\/media.ilnp.com\\/uploads\\/2019\\/05\\/tilted_h_-_ilnp_1.jpg\",\"\\r\\nhttps:\\/\\/media.ilnp.com\\/uploads\\/2018\\/02\\/imagine_that2.jpg\",\"\\r\\nhttps:\\/\\/media.ilnp.com\\/uploads\\/2017\\/11\\/Imagine-That.jpg\",\"\\r\\nhttps:\\/\\/media.ilnp.com\\/uploads\\/2022\\/04\\/ILNP-Imagine20That.jpg\"]",
+            "name": "ILNP Ultra Chrome Nail Polish",
+            "pdesc": "ILNP Ultra Chrome Nail Polish redefines the nail polish experience with its mesmerizing, multi-dimensional hues that transform with every twist of your wrist. Designed for the modern, trendsetting individual, this nail polish is a perfect blend of innovation and elegance.\r\n\r\nThis unique polish is a testament to ILNP's commitment to quality and creativity. Each bottle contains a visually stunning formula that shifts between enchanting colors, creating a dynamic and prismatic effect on your nails. The shade \"Abundance\" is particularly captivating, offering a seamless transition from rich purples to glowing golds and serene greens, reminiscent of an autumnal landscape.\r\n\r\nThe polish's formula is a standout feature. Not only is it non-watery, but it also boasts a fast-drying capacity that ensures a smooth, flawless application. The brush is thoughtfully designed \u2014 short and firm, allowing for precise and steady strokes without any wobbling, essential for achieving a professional-looking manicure at home.\r\n\r\nPracticality is not overlooked. The bottle's design is both aesthetically pleasing and functional. The rubberized texture of the cap ensures a firm grip, making opening the bottle effortless, even with wet nails. This detail is a subtle yet significant nod to the user-friendly ethos of ILNP.\r\n\r\nDurability is another key aspect. Wearers of the ILNP Ultra Chrome Nail Polish can expect a long-lasting finish with minimal chipping, maintaining a pristine look for days. This resilience makes it an excellent choice for those with active lifestyles or for special occasions where lasting impression is a must.\r\n\r\nILNP Ultra Chrome Nail Polish in \"Abundance\" is not just a polish; it's an expression of personal style and sophistication. Its transformative colors, user-friendly application, and lasting finish make it a must-have for anyone looking to elevate their nail polish game. Whether it's for a regular day at work or a special night out, this polish is sure to turn heads and spark conversations.",
+            "price": "12.50",
+            "video_link": "https://www.youtube.com/watch?v=6BNZBTxqPp0&ab_channel=ILNPCosmetics",
+            "visit_link": "https://www.ilnp.com/",
+            "rating": 5,
+            "rating_count": 5,
+            "rating_user": 1,
+            "rating_user_list": ",20",
+            "created_at": "2023-11-25T14:05:13.000000Z",
+            "updated_at": "2023-11-25T18:53:01.000000Z",
+            "image_src": "",
+            "status": 1,
+            "product_category": {
+                "id": 53,
+                "image": null,
+                "name": "Nail Polishes",
+                "created_at": "2023-11-10T13:44:43.000000Z",
+                "updated_at": "2023-11-10T13:44:43.000000Z",
+                "image_src": null
+            },
+            "save_product": [
+                {
+                    "id": 117,
+                    "user_id": 21,
+                    "product_id": 37,
+                    "created_at": "2023-11-26T20:12:15.000000Z",
+                    "updated_at": "2023-11-26T20:12:15.000000Z",
+                    "user": {
+                        "id": 21,
+                        "name": "Dave Waldorf",
+                        "email": "evadfrodlaw@gmail.com",
+                        "email_verified_at": null,
+                        "created_at": "2023-11-21T15:10:42.000000Z",
+                        "updated_at": "2023-11-21T15:10:42.000000Z"
+                    }
+                }
+            ]
+        }
+    ]
+}

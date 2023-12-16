@@ -1,0 +1,32 @@
+{
+    "data": [
+        {
+            "id": 22,
+            "product_category_id": 38,
+            "image": "https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw3bbc388a/ProductImages/2018/Lips/Suede_Matte_Lipstick/800897170653_suedemattelipstick_daintygaze_main.jpg?sw=500&sfrm=jpg&q=70",
+            "multi_image": "[\"https:\\/\\/www.nyxcosmetics.com\\/dw\\/image\\/v2\\/AANG_PRD\\/on\\/demandware.static\\/-\\/Sites-cpd-nyxusa-master-catalog\\/default\\/dw81d66e5f\\/ProductImages\\/2018\\/Lips\\/Suede_Matte_Lipstick\\/800897170653_suedemattelipstick_daintygaze_alt2.jpg?sw=500&sfrm=jpg&q=70\",\"\\r\\nhttps:\\/\\/www.nyxcosmetics.com\\/dw\\/image\\/v2\\/AANG_PRD\\/on\\/demandware.static\\/-\\/Sites-cpd-nyxusa-master-catalog\\/default\\/dwc04342b3\\/ProductImages\\/2020\\/Lips\\/NEW_A_plus\\/Suede_Matte_Lipstick\\/NYX-Professional-Makeup-Suede-Matte-Lipstick-3-Arm-Swatch-1.jpg?sw=500&sfrm=jpg&q=70\",\"\\r\\nhttps:\\/\\/www.nyxcosmetics.com\\/dw\\/image\\/v2\\/AANG_PRD\\/on\\/demandware.static\\/-\\/Sites-cpd-nyxusa-master-catalog\\/default\\/dwbec02c81\\/ProductImages\\/2020\\/Lips\\/NEW_A_plus\\/Suede_Matte_Lipstick\\/NYX-Professional-Makeup-Suede-Matte-Lipstick-Range-Deep-Macro.jpg?sw=500&sfrm=jpg&q=70\",\"\\r\\nhttps:\\/\\/www.nyxcosmetics.com\\/dw\\/image\\/v2\\/AANG_PRD\\/on\\/demandware.static\\/-\\/Sites-cpd-nyxusa-master-catalog\\/default\\/dwa8e8b739\\/ProductImages\\/2020\\/Lips\\/NEW_A_plus\\/Suede_Matte_Lipstick\\/NYX-Professional-Makeup-Suede-Matte-Lipstick-Range-Medium-Macro.jpg?sw=500&sfrm=jpg&q=70\",\"\\r\\nhttps:\\/\\/www.nyxcosmetics.com\\/dw\\/image\\/v2\\/AANG_PRD\\/on\\/demandware.static\\/-\\/Sites-cpd-nyxusa-master-catalog\\/default\\/dwe30509bd\\/ProductImages\\/2018\\/Lips\\/Suede_Matte_Lipstick\\/800897170653_suedemattelipstick_daintygaze_alt1.jpg?sw=500&sfrm=jpg&q=70\"]",
+            "name": "NYX Professional Makeup Suede Matte Lipstick",
+            "pdesc": "The NYX Professional Makeup Suede Matte Lipstick is a trailblazer in the beauty industry, offering a fusion of high-quality, comfort, and style. This product is not just a lipstick; it's an experience for those who cherish both beauty and ethical standards.\r\n\r\nWith an impressive range of 35 shades, this lipstick caters to every palette - from bold, statement colors to subtle, everyday hues. Each shade is richly pigmented, ensuring vibrant, consistent color that accentuates your lips with every application. Whether you're aiming for a standout look for special occasions or a natural enhancement for daily wear, there's a shade tailored to every style and mood.\r\n\r\nWhat sets this lipstick apart is its exceptional matte formula. Traditional matte lipsticks often come with drawbacks like dryness and uneven application, but the NYX Suede Matte Lipstick breaks the mold. Its creamy texture glides smoothly over the lips, offering full yet lightweight coverage. This comfortable feel, combined with a long-lasting formula, minimizes the need for frequent touch-ups, making it ideal for extended wear.\r\n\r\nThe design of the lipstick itself is both practical and elegant. Encased in a sleek, heart-adorned package, it's a symbol of sophistication and fun. The bullet shape allows for precise application, ensuring flawless coverage every time.\r\n\r\nFurthermore, the lipstick's vegan formula speaks to the brand's commitment to cruelty-free beauty. This aspect not only enhances its appeal but also aligns with the values of socially conscious consumers.\r\n\r\nIn summary, the NYX Professional Makeup Suede Matte Lipstick is more than just a makeup product. Its diverse color range, luxurious formula, chic packaging, and ethical standards make it an irresistible choice for anyone looking to elevate their beauty routine. It's a perfect blend of style, comfort, and responsibility, making it a must-have in every makeup enthusiast's collection.",
+            "price": "9.00",
+            "video_link": "https://www.youtube.com/watch?v=pIbN5nsGaEs&ab_channel=NYXCosmetics",
+            "visit_link": "https://www.nyxcosmetics.com/lip/lipstick/suede-matte-lipstick/NYX_630.html",
+            "rating": 5,
+            "rating_count": 5,
+            "rating_user": 1,
+            "rating_user_list": ",21",
+            "created_at": "2023-11-18T15:43:30.000000Z",
+            "updated_at": "2023-11-25T19:26:21.000000Z",
+            "image_src": "",
+            "status": 1,
+            "product_category": {
+                "id": 38,
+                "image": null,
+                "name": "Lipsticks",
+                "created_at": "2023-11-10T13:42:36.000000Z",
+                "updated_at": "2023-11-10T13:42:36.000000Z",
+                "image_src": null
+            },
+            "save_product": []
+        }
+    ]
+}

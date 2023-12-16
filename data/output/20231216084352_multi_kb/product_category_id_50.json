@@ -1,0 +1,48 @@
+{
+    "data": [
+        {
+            "id": 34,
+            "product_category_id": 50,
+            "image": "https://assets.hermes.com/is/image/hermesproduct/brides-de-gala-applique-pique-shawl-140--243940S%2003-worn-2-0-0-800-800_g.jpg",
+            "multi_image": "[\"https:\\/\\/assets.hermes.com\\/is\\/image\\/hermesproduct\\/brides-de-gala-perforated-scarf-90--871266S%2001-flat-1-300-0-800-800_g.jpg\",\"\\r\\nhttps:\\/\\/assets.hermes.com\\/is\\/image\\/hermesproduct\\/brides-de-gala-perforated-scarf-90--871266S%2001-worn-2-0-0-800-800_g.jpg\",\"\\r\\nhttps:\\/\\/assets.hermes.com\\/is\\/image\\/hermesproduct\\/brides-de-gala-perforated-scarf-90--871266S%2001-detail-3-0-0-800-800_g.jpg\",\"\\r\\nhttps:\\/\\/assets.hermes.com\\/is\\/image\\/hermesproduct\\/brides-de-gala-applique-pique-shawl-140--243940S%2003-worn-2-0-0-800-800_g.jpg\",\"\\r\\nhttps:\\/\\/assets.hermes.com\\/is\\/image\\/hermesproduct\\/brides-de-gala-double-face-scarf-90--901266S%2002-flat-1-300-0-800-800_g.jpg\"]",
+            "name": "Herm\u00e8s Brides de Gala",
+            "pdesc": "The Herm\u00e8s \"Brides de Gala\" silk scarf is not just an accessory; it is a symbol of elegance, history, and craftsmanship. Designed in 1957 by Hugo Grygkar in collaboration with Robert Dumas, this scarf has become an iconic piece in the world of luxury fashion. Its name, \"Brides de Gala,\" translates to \"Bridal Halters,\" paying homage to Herm\u00e8s\u2019 equestrian roots, reflecting the brand's heritage as a saddlery maker.\r\n\r\nThis exquisite scarf is crafted from the finest silk, ensuring a smooth, luxurious feel against the skin. The silk twill's weight is perfect, offering enough heft for a structured drape, yet it's light enough to be worn comfortably in any season. Measuring approximately 36 inches square, the Brides de Gala scarf is a versatile size, suitable for various styles of wear \u2013 from a classic neck wrap to an elegant headscarf or even as a chic accessory tied on a handbag.\r\n\r\nThe design features intricate equestrian bridles and harnesses, artistically laid out in a symmetrical pattern. The detailed artwork is both bold and delicate, showcasing Herm\u00e8s' dedication to quality and artistic expression. The color palette is typically Herm\u00e8s, with rich and vibrant hues that remain timeless, yet always feel fresh and contemporary.\r\n\r\nThe edges of the scarf are meticulously hand-rolled and hand-stitched, a testament to the brand's commitment to craftsmanship. This finishing touch not only adds to the scarf's beauty but also speaks to its durability and quality.\r\n\r\nPerfect for both fashion enthusiasts and collectors alike, the Brides de Gala scarf is more than just a fashion statement. It's a piece of wearable art that conveys sophistication, luxury, and a deep appreciation for the storied history of Herm\u00e8s. Whether draped around the neck, tied in a sophisticated knot, or worn as a headscarf, this scarf elevates any outfit, making it an indispensable addition to any wardrobe.",
+            "price": "740",
+            "video_link": "https://www.youtube.com/watch?v=WmGpKSesImM&ab_channel=Herm%C3%A8s",
+            "visit_link": "https://www.hermes.com/us/en/product/brides-de-gala-perforated-scarf-90-H871266Sv01/",
+            "rating": 5,
+            "rating_count": 5,
+            "rating_user": 1,
+            "rating_user_list": ",20",
+            "created_at": "2023-11-24T15:12:38.000000Z",
+            "updated_at": "2023-11-25T18:57:06.000000Z",
+            "image_src": "",
+            "status": 1,
+            "product_category": {
+                "id": 50,
+                "image": null,
+                "name": "Silk Scarves",
+                "created_at": "2023-11-10T13:44:17.000000Z",
+                "updated_at": "2023-11-10T13:44:17.000000Z",
+                "image_src": null
+            },
+            "save_product": [
+                {
+                    "id": 118,
+                    "user_id": 21,
+                    "product_id": 34,
+                    "created_at": "2023-11-26T20:14:03.000000Z",
+                    "updated_at": "2023-11-26T20:14:03.000000Z",
+                    "user": {
+                        "id": 21,
+                        "name": "Dave Waldorf",
+                        "email": "evadfrodlaw@gmail.com",
+                        "email_verified_at": null,
+                        "created_at": "2023-11-21T15:10:42.000000Z",
+                        "updated_at": "2023-11-21T15:10:42.000000Z"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "data": [
+        {
+            "id": 38,
+            "product_category_id": 54,
+            "image": "https://naadam.co/cdn/shop/products/WE02145_THE_ESSENTIAL__75_CASHMERE_SWEATER_BLACK_FLAT_1440x.jpg?v=1699802194",
+            "multi_image": "[\"https:\\/\\/cdn.shopify.com\\/s\\/files\\/1\\/0313\\/7821\\/files\\/The_Essential__75_Cashmere_Sweater_Olive_Plus_384_214c4881-8c2b-461f-b48e-bd58f4b92ed7_1440x.jpg?v=1700593244\",\"\\r\\nhttps:\\/\\/naadam.co\\/cdn\\/shop\\/files\\/The_Essential__75_Cashmere_Sweater_Olive_006_cb3962ae-201d-4e8f-8df3-bc72a1565f7f_1440x.jpg?v=1700593244\",\"\\r\\nhttps:\\/\\/naadam.co\\/cdn\\/shop\\/files\\/The-Essential-_75-Cashmere-Sweater-_CO_Cement-_CO__284_694e5190-1b3a-410f-87f3-75c26a4ea2e3_1440x.jpg?v=1698352861\",\"\\r\\nhttps:\\/\\/naadam.co\\/cdn\\/shop\\/files\\/The-Essential-_75-Cashmere-Sweater-_CO_Cement-_CO__273_914011b2-a75d-42b5-9f26-c2c4a9119cfd_1440x.jpg?v=1699802194\",\"\\r\\nhttps:\\/\\/naadam.co\\/cdn\\/shop\\/files\\/The-Essential-_75-Cashmere-Sweater-_CO_Black-_CO__381_0f671028-66a3-4138-a09c-3df3688090be_1440x.jpg?v=1699802194\"]",
+            "name": "Naadam's Original Cashmere Sweater",
+            "pdesc": "Indulge in the unrivaled softness and luxury of Naadam's Original Cashmere Sweater, a garment that redefines elegance in simplicity. Crafted with meticulous attention to detail, this sweater is not just a piece of clothing, but a testament to the art of fine dressing.\r\n\r\nAt the heart of this sweater is the unparalleled quality of its material. Sourced from the finest cashmere, known for its exquisite softness and insulating properties, Naadam\u2019s commitment to sustainable and ethical practices ensures that each sweater not only feels good on your skin but also on your conscience. The fibers are delicately harvested, ensuring the well-being of the goats, and then spun into yarn that offers both warmth and breathability, making it perfect for any season.\r\n\r\nThe design of the Original Cashmere Sweater speaks volumes of understated luxury. Its slim-fit cut is meticulously tailored to flatter any physique, skimming the body with a gentle embrace that allows for effortless movement. This silhouette makes it an excellent choice for layering, seamlessly fitting under jackets or over collared shirts, making it incredibly versatile for both casual and formal settings.\r\n\r\nThe sweater's refined aesthetic is complemented by its exceptional durability. Cashmere, known for its longevity, retains its shape and texture over time, ensuring that the sweater remains a staple in your wardrobe for years to come. The thoughtful construction extends to features like ribbed cuffs and hem, which not only add to the visual appeal but also enhance the sweater's ability to retain warmth.\r\n\r\nIn a palette of carefully selected hues, each color option is chosen to complement a wide range of skin tones and personal styles. Whether you choose a classic neutral or a bold statement color, the sweater\u2019s rich and vibrant shades are resistant to fading, maintaining their depth even after multiple washes.",
+            "price": "98",
+            "video_link": "https://www.youtube.com/watch?v=YVMk63R3HJU&ab_channel=NAADAM",
+            "visit_link": "https://naadam.co/collections/the-original-sweater",
+            "rating": 0,
+            "rating_count": 0,
+            "rating_user": 0,
+            "rating_user_list": null,
+            "created_at": "2023-11-26T19:39:03.000000Z",
+            "updated_at": "2023-11-26T19:39:03.000000Z",
+            "image_src": "",
+            "status": 1,
+            "product_category": {
+                "id": 54,
+                "image": null,
+                "name": "Cashmere Sweaters",
+                "created_at": "2023-11-10T13:44:53.000000Z",
+                "updated_at": "2023-11-10T13:44:53.000000Z",
+                "image_src": null
+            },
+            "save_product": [
+                {
+                    "id": 114,
+                    "user_id": 21,
+                    "product_id": 38,
+                    "created_at": "2023-11-26T20:08:32.000000Z",
+                    "updated_at": "2023-11-26T20:08:32.000000Z",
+                    "user": {
+                        "id": 21,
+                        "name": "Dave Waldorf",
+                        "email": "evadfrodlaw@gmail.com",
+                        "email_verified_at": null,
+                        "created_at": "2023-11-21T15:10:42.000000Z",
+                        "updated_at": "2023-11-21T15:10:42.000000Z"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "data": [
+        {
+            "id": 36,
+            "product_category_id": 52,
+            "image": "https://cdn.beverlyhillsmd.com/wp-content/uploads/2022/11/Lift-Firm-Booster-Copy%402x.jpg",
+            "multi_image": "[\"https:\\/\\/cdn.beverlyhillsmd.com\\/wp-content\\/uploads\\/2022\\/10\\/Lift-Firm-Booster-model-Copy%402x.jpg\",\"\\r\\nhttps:\\/\\/cdn.beverlyhillsmd.com\\/wp-content\\/uploads\\/2022\\/10\\/Brighten-Tighten-Facial-Oil-model-Copy%402x.jpg\",\"\\r\\nhttps:\\/\\/cdn.beverlyhillsmd.com\\/wp-content\\/uploads\\/2022\\/10\\/Multi-hyaluronic-booster-model-Copy%402x.jpg\",\"\\r\\nhttps:\\/\\/cdn.beverlyhillsmd.com\\/wp-content\\/uploads\\/2022\\/11\\/Multi-hyaluronic-booster-Copy%402x.jpg\",\"\\r\\nhttps:\\/\\/cdn.beverlyhillsmd.com\\/wp-content\\/uploads\\/2019\\/10\\/BHMD-Lifestyle-img16.jpg\"]",
+            "name": "Beverly Hills MD Lift + Firm Booster",
+            "pdesc": "The Beverly Hills MD Lift + Firm Booster is a revolutionary skincare product designed to redefine the concept of age-defying beauty. This premium serum is crafted with the expertise of renowned Beverly Hills dermatologists, embodying a blend of science and luxury.\r\n\r\nAt the heart of its formula are potent, clinically proven ingredients that work synergistically to deliver visible lifting and firming effects. Advanced peptides and natural extracts are meticulously selected for their ability to stimulate collagen production, enhancing skin's elasticity and firmness. This results in a noticeable reduction in the appearance of fine lines and wrinkles, offering a smoother, more youthful complexion.\r\n\r\nThe Lift + Firm Booster also features a unique hydration complex. This not only provides immediate moisture to parched skin but also locks it in for long-lasting comfort. It's particularly beneficial for those experiencing dryness or loss of plumpness, restoring a supple, hydrated look and feel to the skin.\r\n\r\nA highlight of this serum is its lightweight, non-greasy texture. It absorbs quickly, leaving no residue, making it an excellent base for makeup or other skincare products. Its gentle formulation is suitable for all skin types, including sensitive skin, and can be integrated seamlessly into any skincare routine.\r\n\r\nInnovation doesn't stop with the ingredients; the packaging is equally thoughtful. The airless pump dispenser ensures the product stays fresh and potent, delivering the perfect amount of serum with each use.\r\n\r\nUsing the Beverly Hills MD Lift + Firm Booster is a luxurious experience. With regular use, users report a visible transformation in their skin's firmness and overall appearance. It's not just a serum; it's a commitment to ageless beauty, backed by the prestige and expertise of Beverly Hills dermatology. For those seeking a premium solution to age-related skin concerns, this serum stands out as a choice par excellence.",
+            "price": "130.00",
+            "video_link": "https://www.youtube.com/watch?v=nDgNiMdFpgo&ab_channel=BeverlyHillsMD",
+            "visit_link": "https://beverlyhillsmd.com/product/lift-firm-booster/",
+            "rating": 5,
+            "rating_count": 9,
+            "rating_user": 2,
+            "rating_user_list": ",20,21",
+            "created_at": "2023-11-25T13:51:33.000000Z",
+            "updated_at": "2023-11-25T21:38:44.000000Z",
+            "image_src": "",
+            "status": 1,
+            "product_category": {
+                "id": 52,
+                "image": null,
+                "name": "Facial Serums",
+                "created_at": "2023-11-10T13:44:35.000000Z",
+                "updated_at": "2023-11-10T13:44:35.000000Z",
+                "image_src": null
+            },
+            "save_product": [
+                {
+                    "id": 112,
+                    "user_id": 21,
+                    "product_id": 36,
+                    "created_at": "2023-11-26T17:58:32.000000Z",
+                    "updated_at": "2023-11-26T17:58:32.000000Z",
+                    "user": {
+                        "id": 21,
+                        "name": "Dave Waldorf",
+                        "email": "evadfrodlaw@gmail.com",
+                        "email_verified_at": null,
+                        "created_at": "2023-11-21T15:10:42.000000Z",
+                        "updated_at": "2023-11-21T15:10:42.000000Z"
+                    }
+                }
+            ]
+        }
+    ]
+}

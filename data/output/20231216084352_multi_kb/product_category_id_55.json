@@ -1,0 +1,48 @@
+{
+    "data": [
+        {
+            "id": 19,
+            "product_category_id": 55,
+            "image": "https://ca.olaplex.com/cdn/shop/files/OLAPLEX_N4_PDP_1_1440x.jpg?v=1697465441",
+            "multi_image": "[\"https:\\/\\/ca.olaplex.com\\/cdn\\/shop\\/files\\/OLAPLEX_N4_PDP_4_b7a751a7-c695-4f1b-a0b2-72d0e2d00745_1440x.jpg?v=1698939162\",\" https:\\/\\/ca.olaplex.com\\/cdn\\/shop\\/files\\/OLAPLEX_N4_PDP_3_c25ace63-6e57-4b18-8cea-45d85cab0e3e_1440x.jpg?v=1698939162\",\" https:\\/\\/ca.olaplex.com\\/cdn\\/shop\\/files\\/OLAPLEX_N4_PDP_5_df3ec6ce-750a-4656-9aab-2f7b1b4e7481_1440x.jpg?v=1698939162\",\" https:\\/\\/ca.olaplex.com\\/cdn\\/shop\\/files\\/ENG782-AllureSealAddition_4_5__No4100ml_2000x2000PNG_47fb74e5-59da-4864-bcf5-d8cb08dd1b46_1440x.png?v=1698939162\",\" https:\\/\\/ca.olaplex.com\\/cdn\\/shop\\/files\\/OLAPLEX_N4_PDP_2_ebef8a01-38fc-47aa-93b9-1d38d82b084b_1440x.jpg?v=1698939162\"]",
+            "name": "Olaplex No. 4 Bond Maintenance Shampoo",
+            "pdesc": "Embark on a transformative journey for your hair with Olaplex No. 4 Bond Maintenance Shampoo, a revolutionary product designed to redefine the way you care for your tresses. This innovative shampoo is not just a cleanser; it's a reparative treatment that works at a molecular level to seek out and repair broken bonds in your hair caused by chemical, thermal, and mechanical damage.\r\n\r\n\r\nAt the heart of its formula lies Olaplex's patented bond-building technology. This unique system delves deep into the hair's structure, restoring strength and resilience from the inside out. The result? Hair that feels stronger, looks healthier, and is more resilient against future damage.\r\n\r\n\r\nThis shampoo is a game-changer for those who regularly color-treat their hair. It is specifically formulated to work in tandem with Olaplex's other renowned products, creating a comprehensive hair care routine that continually rebuilds and protects your hair's integrity. With each wash, you'll notice your hair becoming more vibrant, with color that looks fresher and more luminous.\r\n\r\n\r\nBut Olaplex No. 4 is not just for the color-treated. It's a universal solution suitable for all hair types and textures, whether you have fine, curly, or coarsely textured hair. Its gentle yet effective cleansing action removes build-up and impurities without stripping the hair of its natural oils, leaving it clean, soft, and manageable.\r\n\r\nMoreover, this shampoo is a champion of hair health and safety. Free from sulfates, parabens, and gluten, it's a product you can use with complete peace of mind. It's also vegan and never tested on animals, making it a choice that's kind not only to your hair but to the environment as well.\r\n\r\nOlaplex No. 4 Bond Maintenance Shampoo is more than just a shampoo; it's a commitment to the health and beauty of your hair. With each use, you take a step towards restoring your hair's natural strength and beauty, revealing a mane that's not just cleaned but truly revitalized.",
+            "price": "41",
+            "video_link": "https://www.youtube.com/watch?v=fEboj5Rdczg",
+            "visit_link": "https://ca.olaplex.com/products/olaplex-no-4-bond-maintenance-shampoo",
+            "rating": 5,
+            "rating_count": 5,
+            "rating_user": 1,
+            "rating_user_list": ",20",
+            "created_at": "2023-11-16T21:57:29.000000Z",
+            "updated_at": "2023-11-17T15:47:19.000000Z",
+            "image_src": "",
+            "status": 1,
+            "product_category": {
+                "id": 55,
+                "image": null,
+                "name": "Hair Care",
+                "created_at": "2023-11-10T13:45:07.000000Z",
+                "updated_at": "2023-11-10T13:45:07.000000Z",
+                "image_src": null
+            },
+            "save_product": [
+                {
+                    "id": 109,
+                    "user_id": 20,
+                    "product_id": 19,
+                    "created_at": "2023-11-24T01:49:52.000000Z",
+                    "updated_at": "2023-11-24T01:49:52.000000Z",
+                    "user": {
+                        "id": 20,
+                        "name": "Dave Waldorf",
+                        "email": "dave.waldorf@me.com",
+                        "email_verified_at": null,
+                        "created_at": "2023-11-15T21:43:48.000000Z",
+                        "updated_at": "2023-11-15T21:43:48.000000Z"
+                    }
+                }
+            ]
+        }
+    ]
+}

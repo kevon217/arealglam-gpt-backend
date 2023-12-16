@@ -1,0 +1,34 @@
+Product ID: 29
+Name: Faux shearling-lined jacket
+Description: 'The Mango Faux Shearling-Lined Jacket is a statement piece that effortlessly combines style, comfort, and sustainability. Designed with the modern trendsetter in mind, this jacket offers a chic and eco-friendly alternative to traditional shearling. The exterior boasts a robust and stylish design, typically crafted from high-quality faux leather or a similarly durable material, presenting a sleek and sophisticated look.
+
+Inside, the jacket is lined with sumptuous faux shearling, providing not only a luxurious feel but also excellent insulation. This makes it an ideal choice for cooler weather, offering warmth without compromising on style. The shearling lining extends to the collar, often featuring a classic lapel design, adding an extra touch of elegance and coziness.
+
+Attention to detail is evident in every aspect of this jacket. It usually features thoughtfully placed pockets, providing practicality and enhancing the overall design. The front closure is designed for ease of use while maintaining the jacket's streamlined aesthetic.
+
+What sets the Mango Faux Shearling-Lined Jacket apart is its versatility. It can be dressed up or down, making it suitable for various occasions. Whether paired with jeans and sneakers for a casual day out or layered over a dress for an evening event, this jacket adds a touch of sophistication to any outfit.
+
+Moreover, by choosing faux shearling, Mango demonstrates a commitment to ethical fashion. This choice reflects a growing trend towards more sustainable and animal-friendly apparel options.
+
+In summary, the Mango Faux Shearling-Lined Jacket is more than just a piece of clothing; it's a fusion of fashion-forward design, practicality, and ethical considerations. Its timeless appeal, coupled with contemporary touches, makes it a must-have in the wardrobe of anyone who values style, comfort, and sustainability.'
+Price: 179.99
+Category ID: 45
+Category Name: Leather Jackets
+
+
+Product ID: 18
+Name: Alison Leather Jacket
+Description: 'The Alison Leather Jacket is a timeless masterpiece that effortlessly combines classic biker aesthetics with modern fashion sensibilities. Crafted from premium quality leather, this jacket is a quintessential wardrobe staple for those who value both style and substance.
+
+Upon first glance, the Alison Jacket captivates with its sleek black finish, a testament to its versatility and ability to complement any outfit. The jacket's design is thoughtfully tailored to flatter the figure, while still offering the comfort and ease of movement essential in a biker jacket. It features a distinctive asymmetrical front zipper, a hallmark of traditional biker style, which adds an edgy and dynamic flair.
+
+The attention to detail is evident in every stitch. Shoulder epaulets bring a touch of military-inspired chic, while the zippered cuffs and pockets not only enhance its visual appeal but also increase its practicality. The inclusion of a removable belt allows for a customized fit, catering to various body shapes and style preferences.
+
+The Alison Jacket isn't just about looks; it’s designed for durability and longevity. The quality of the leather ensures it can withstand the rigors of daily wear, making it a reliable companion for both urban adventures and countryside escapades. As it ages, the leather develops a unique patina, telling the story of its journeys and adventures with you.
+
+Available in classic black, vibrant green, and rich brown, the jacket offers a range of options to suit different personal styles. Whether paired with a casual tee and jeans for a laid-back look, or draped over a dress for an evening out, the Alison Leather Jacket is versatile enough to transition effortlessly from day to night, season to season.
+
+In summary, the Alison Leather Jacket is more than just a piece of clothing; it's a symbol of attitude, freedom, and a nod to the timeless cool of biker culture, making it an essential addition to any fashion-forward wardrobe.'
+Price: 150.00
+Category ID: 45
+Category Name: Leather Jackets

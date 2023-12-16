@@ -1,0 +1,14 @@
+Product ID: 35
+Name: Skinceuticals Clarifying Clay Masque
+Description: 'The Skinceuticals Clarifying Clay Masque is a remarkable skincare solution, masterfully formulated for those seeking a powerful yet gentle approach to refining their complexion. This premium face mask, crafted with a blend of high-quality ingredients, stands out in the market for its exceptional ability to purify and rejuvenate the skin.
+
+At the heart of this masque is a meticulously balanced duo of kaolin and bentonite clays. These natural earth clays are renowned for their extraordinary oil-absorbing properties. They work in unison to meticulously draw out and remove impurities, excess oil, and toxins from the skin, leaving it feeling clean and refreshed.
+
+What sets the Skinceuticals Masque apart is its inclusion of aloe and chamomile. These botanicals are celebrated for their soothing and calming effects on the skin. Aloe, known for its hydrating properties, helps to maintain the skin's moisture balance, preventing the over-drying that can often accompany clay-based treatments. Chamomile, with its anti-inflammatory properties, aids in reducing redness and irritation, making this masque suitable for even the most sensitive skin types.
+
+Designed for weekly use, the Skinceuticals Clarifying Clay Masque is an ideal addition to any skincare routine. It's particularly effective for those with oily or acne-prone skin, as it helps to unclog pores, control sebum production, and prevent future breakouts. However, its gentle nature also makes it a suitable choice for those with normal to combination skin types.
+
+In application, the masque glides on smoothly, enveloping the skin in a layer of luxurious creaminess. As it dries, the masque works its magic, drawing out impurities and leaving the skin feeling deeply cleansed and renewed. After use, users will notice a more refined skin texture, minimized pores, and a radiant, balanced complexion.'
+Price: 66.00
+Category ID: 51
+Category Name: Face Masks

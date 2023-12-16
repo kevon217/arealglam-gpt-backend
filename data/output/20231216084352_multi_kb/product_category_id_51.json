@@ -1,0 +1,48 @@
+{
+    "data": [
+        {
+            "id": 35,
+            "product_category_id": 51,
+            "image": "https://www.skinceuticals.co.uk/on/demandware.static/-/Sites-skc-master-catalog/default/dw0a66d4c4/pdpimages/additional/SkinCeuticals-Mask-ClarifyingClayMasque-000-635494330205-Inhand_1.jpg",
+            "multi_image": "[\"https:\\/\\/www.skinceuticals.com.au\\/dw\\/image\\/v2\\/BFZM_PRD\\/on\\/demandware.static\\/-\\/Sites-skinceuticals-master-catalog\\/default\\/dwbb16239f\\/Products\\/635494130003\\/18_0220_Clarifying%20Clay%20Masque.jpg?sw=250&sfrm=jpg&q=70\",\"\\r\\nhttps:\\/\\/cdn.ecosmetics.com\\/2020\\/10\\/05873496301-1.jpg\",\"\\r\\nhttps:\\/\\/ohbeauty.com\\/cdn\\/shop\\/files\\/skinceuticals-clarifying-clay-masque-50-ml.png?v=1692141004\",\"\\r\\nhttps:\\/\\/www.adorebeauty.com.au\\/media\\/catalog\\/product\\/s\\/k\\/skinceuticals_clarifyingclaymasque_0006.png\",\"\\r\\nhttps:\\/\\/www.skinceuticals.com\\/dw\\/image\\/v2\\/AANG_PRD\\/on\\/demandware.static\\/-\\/Sites-acd-skinceuticals-master-catalog\\/default\\/dw5fe66106\\/pdf\\/clarifying-clay-mask-for-acne-prone-skin-635494130003-skinceuticals-main.jpg?sw=500&sfrm=png&q=70\"]",
+            "name": "Skinceuticals Clarifying Clay Masque",
+            "pdesc": "The Skinceuticals Clarifying Clay Masque is a remarkable skincare solution, masterfully formulated for those seeking a powerful yet gentle approach to refining their complexion. This premium face mask, crafted with a blend of high-quality ingredients, stands out in the market for its exceptional ability to purify and rejuvenate the skin.\r\n\r\nAt the heart of this masque is a meticulously balanced duo of kaolin and bentonite clays. These natural earth clays are renowned for their extraordinary oil-absorbing properties. They work in unison to meticulously draw out and remove impurities, excess oil, and toxins from the skin, leaving it feeling clean and refreshed.\r\n\r\nWhat sets the Skinceuticals Masque apart is its inclusion of aloe and chamomile. These botanicals are celebrated for their soothing and calming effects on the skin. Aloe, known for its hydrating properties, helps to maintain the skin's moisture balance, preventing the over-drying that can often accompany clay-based treatments. Chamomile, with its anti-inflammatory properties, aids in reducing redness and irritation, making this masque suitable for even the most sensitive skin types.\r\n\r\nDesigned for weekly use, the Skinceuticals Clarifying Clay Masque is an ideal addition to any skincare routine. It's particularly effective for those with oily or acne-prone skin, as it helps to unclog pores, control sebum production, and prevent future breakouts. However, its gentle nature also makes it a suitable choice for those with normal to combination skin types.\r\n\r\nIn application, the masque glides on smoothly, enveloping the skin in a layer of luxurious creaminess. As it dries, the masque works its magic, drawing out impurities and leaving the skin feeling deeply cleansed and renewed. After use, users will notice a more refined skin texture, minimized pores, and a radiant, balanced complexion.",
+            "price": "66.00",
+            "video_link": "https://www.youtube.com/watch?v=pj50mbj88gc&ab_channel=SkinCeuticals",
+            "visit_link": "https://www.skinceuticals.com/skincare/facial-masks/clarifying-clay-mask-for-acne-prone-skin/S18.html",
+            "rating": 5,
+            "rating_count": 5,
+            "rating_user": 1,
+            "rating_user_list": ",20",
+            "created_at": "2023-11-24T15:50:07.000000Z",
+            "updated_at": "2023-11-25T18:52:58.000000Z",
+            "image_src": "",
+            "status": 1,
+            "product_category": {
+                "id": 51,
+                "image": null,
+                "name": "Face Masks",
+                "created_at": "2023-11-10T13:44:25.000000Z",
+                "updated_at": "2023-11-10T13:44:25.000000Z",
+                "image_src": null
+            },
+            "save_product": [
+                {
+                    "id": 119,
+                    "user_id": 21,
+                    "product_id": 35,
+                    "created_at": "2023-11-26T20:14:07.000000Z",
+                    "updated_at": "2023-11-26T20:14:07.000000Z",
+                    "user": {
+                        "id": 21,
+                        "name": "Dave Waldorf",
+                        "email": "evadfrodlaw@gmail.com",
+                        "email_verified_at": null,
+                        "created_at": "2023-11-21T15:10:42.000000Z",
+                        "updated_at": "2023-11-21T15:10:42.000000Z"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "data": [
+        {
+            "id": 30,
+            "product_category_id": 46,
+            "image": "https://www.vicicollection.com/cdn/shop/files/DI5849VC-OLIVE_08-19-230231_a78f0ef8-a2ca-47d6-9775-99263631a499_540x.jpg?v=1696990116",
+            "multi_image": "[\"https:\\/\\/www.vicicollection.com\\/cdn\\/shop\\/files\\/DI5849VC-OLIVE_08-19-23_4409_582f02eb-ed9f-4588-8b70-dbefe67bd4e2_540x.jpg?v=1695775266\",\"\\r\\nhttps:\\/\\/www.vicicollection.com\\/cdn\\/shop\\/files\\/DI5849VC-OLIVE_08-19-23_4391_98328084-0d16-4f90-aea4-3c0bd1ed62c1_540x.jpg?v=1695775267\",\"\\r\\nhttps:\\/\\/www.vicicollection.com\\/cdn\\/shop\\/files\\/DI5849VC-OLIVE_08-19-230245_650790f5-0223-4c78-b53c-11c97ce1d512_540x.jpg?v=1695775267\",\"\\r\\nhttps:\\/\\/www.vicicollection.com\\/cdn\\/shop\\/files\\/DI5849VC-OLIVE_08-19-230262_808f4a1f-ef79-43eb-a9ec-5862f80c158e_540x.jpg?v=1695775266\",\"\\r\\nhttps:\\/\\/www.vicicollection.com\\/cdn\\/shop\\/files\\/DI5849VC-OLIVE_08-19-230264_40d2a439-ba09-4aab-872b-de7d1b241ca8_540x.jpg?v=1696989965\"]",
+            "name": "Happy Sailed Women's Knit Long Sleeve Sweater Dress:",
+            "pdesc": "Indulge in the epitome of cozy elegance with the Happy Sailed Women's Knit Long Sleeve Sweater Dress. Crafted to elevate your fall wardrobe, this dress harmoniously blends comfort with style, ensuring you stand out in any setting.\r\n\r\nExpertly designed, this dress features a classic knit pattern that exudes a timeless charm. The soft, premium fabric gracefully hugs your figure, providing warmth without compromising on style. Its long sleeves and modest length make it a perfect choice for cooler days, offering both coverage and comfort.\r\n\r\nThe dress's true highlight is its flattering wrap silhouette. This feature accentuates your waist, creating a beautiful, feminine shape that compliments all body types. Whether you're heading to a casual brunch or a sophisticated evening event, this dress effortlessly adapts to the occasion.\r\n\r\nAvailable in a versatile shade that pairs seamlessly with any accessory, this dress invites you to experiment with different styles. Dress it up with a pair of heels and statement jewelry for an elegant evening look, or keep it casual with ankle boots and a denim jacket for a day out.\r\n\r\nWith its blend of comfort, style, and versatility, the Happy Sailed Women's Knit Long Sleeve Sweater Dress is not just a garment\u2014it's an experience. It's a perfect addition to any wardrobe, promising to keep you stylish and cozy through the fall season and beyond. At an accessible price point of $32, it's an affordable luxury that doesn't compromise on quality or style. Embrace the fall season in style with this must-have sweater dress.",
+            "price": "38.99",
+            "video_link": "https://m.media-amazon.com/images/S/aplus-media/sc/43a67b4e-0428-4228-954b-36e3ed9c832f.mp4",
+            "visit_link": "https://www.amazon.com/Happy-Sailed-Bodycon-Sweater-Dresses/dp/B0CGZ437GC?ref_=ast_sto_dp&th=1&psc=1",
+            "rating": 5,
+            "rating_count": 5,
+            "rating_user": 1,
+            "rating_user_list": ",20",
+            "created_at": "2023-11-22T16:10:04.000000Z",
+            "updated_at": "2023-11-25T18:57:10.000000Z",
+            "image_src": "",
+            "status": 1,
+            "product_category": {
+                "id": 46,
+                "image": null,
+                "name": "Maxi Dresses",
+                "created_at": "2023-11-10T13:43:47.000000Z",
+                "updated_at": "2023-11-10T13:43:47.000000Z",
+                "image_src": null
+            },
+            "save_product": []
+        }
+    ]
+}

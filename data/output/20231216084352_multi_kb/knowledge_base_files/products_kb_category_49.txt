@@ -1,0 +1,14 @@
+Product ID: 33
+Name: Vuori Clean Elevation Legging
+Description: 'The Vuori Clean Elevation Legging is a top-tier choice for anyone seeking a blend of style, comfort, and functionality in their activewear. Crafted with a focus on sustainability, these leggings are made from high-quality, eco-friendly materials, ensuring both durability and eco-conscious fashion.
+
+Featuring a sleek and modern design, the leggings come with a flattering high waist that provides excellent support and coverage. The fit is snug yet comfortable, allowing for a full range of motion whether you're engaged in yoga, running, or any high-intensity workout. The material is moisture-wicking and quick-drying, keeping you cool and dry during the most strenuous activities.
+
+One of the standout features of the Vuori Clean Elevation Legging is its versatility. These leggings are not just for the gym or yoga studio; their stylish design makes them perfect for casual wear or running errands around town. The subtle, yet chic aesthetic pairs well with a variety of tops, making it a versatile addition to your wardrobe.
+
+In terms of functionality, these leggings boast practical elements like a hidden pocket for storing small essentials, such as keys or cards, making them ideal for those who are always on the move. The fabric is also designed to resist pilling and maintain its shape and color over time, even after multiple washes.
+
+The Vuori Clean Elevation Legging stands out for its comfort, style, and sustainability, making it an ideal choice for the environmentally conscious consumer who doesn't want to compromise on performance or fashion. These leggings are a testament to the brand's commitment to quality and eco-friendly practices, offering a premium product that meets the needs of the modern, active woman.'
+Price: 98
+Category ID: 49
+Category Name: Leggings

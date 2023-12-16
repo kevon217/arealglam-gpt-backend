@@ -1,0 +1,32 @@
+{
+    "data": [
+        {
+            "id": 24,
+            "product_category_id": 40,
+            "image": "https://cdn.shopify.com/s/files/1/0341/3458/9485/products/FB31006_FB0420_alt1.jpg?v=1660160088",
+            "multi_image": "[\"https:\\/\\/cdn.shopify.com\\/s\\/files\\/1\\/0341\\/3458\\/9485\\/products\\/FB30006_FB0420_alt2.png?v=1660160088\",\"\\r\\nhttps:\\/\\/cdn.shopify.com\\/s\\/files\\/1\\/0341\\/3458\\/9485\\/products\\/FB_FALL22_T2BEAUTY_PROFILTR_SOFTMATTE_LIQUID_MEDIUM-DEEP_420_1200x1500_72DPI.jpg?v=1669072703\",\"\\r\\nhttps:\\/\\/cdn.shopify.com\\/s\\/files\\/1\\/0341\\/3458\\/9485\\/products\\/FB_FALL22_T2PRODUCT_ARMSWATCH_SOFT_MATTE_FOUNDATION_1200x1500_2_1_9c6ad7c6-f091-4e4e-a689-778cd40e1b37.jpg?v=1697755981\",\"\\r\\nhttps:\\/\\/cdn.shopify.com\\/s\\/files\\/1\\/0341\\/3458\\/9485\\/products\\/FB22_FALL_T2_EDITORIAL_PROFILTR-LIQUID_FULL50-REFINEDHERO_1200x1500_72DPI_a8e1e15a-8f70-468d-909e-680015146a88.jpg?v=1697755981\",\"\\r\\nhttps:\\/\\/cdn.shopify.com\\/s\\/files\\/1\\/0341\\/3458\\/9485\\/products\\/Option2_1_85284ab4-2953-4381-829a-2a7546bbf191.jpg?v=1669072713\"]",
+            "name": "Fenty Beauty by Rihanna Pro Filt\u2019r Soft Matte Longwear Liquid Foundation",
+            "pdesc": "Introducing the Fenty Beauty by Rihanna Pro Filt\u2019r Soft Matte Longwear Liquid Foundation \u2013 a revolutionary product that redefines the standards of beauty. This foundation, a brainchild of the iconic Rihanna, is a game-changer in the cosmetics world, meticulously designed to meet the diverse needs of all skin tones.\r\n\r\nCrafted with a groundbreaking formula, this foundation is available in an impressive range of 50 shades, ensuring a perfect match for every skin tone. Its inclusive approach marks a significant step towards embracing all forms of beauty. The Pro Filt\u2019r foundation stands out with its soft matte finish, offering a flawless look without the unwanted shine. This makes it an ideal choice for those with combination to oily skin, as it effectively controls excess oil while delivering a smooth, pore-diffused look.\r\n\r\nThe foundation's long-wearing formula is engineered to withstand the rigors of your day. It promises enduring wear, resisting sweat and humidity, thus maintaining an impeccable appearance from morning till night. This durability makes it a reliable ally for those long days at work or nights out on the town.\r\n\r\nMoreover, its lightweight texture is a testament to the advanced technology used in its creation. The foundation feels feather-light on the skin, ensuring comfort throughout the day. It effortlessly blends into the skin, providing medium to full coverage that can be easily built up or toned down, depending on your preference. This versatility makes it suitable for everyday wear or for those special occasions when you want to look extra polished.\r\n\r\nThe Pro Filt\u2019r Soft Matte Foundation also takes skin health into account. Its oil-free composition does not clog pores, making it a safe choice for those prone to acne. It nurtures the skin, leaving it looking smooth and refined.",
+            "price": "40",
+            "video_link": "https://www.youtube.com/watch?v=loNYY9RIa90&ab_channel=FentyBeautyByRihanna",
+            "visit_link": "https://fentybeauty.com/products/pro-filtr-soft-matte-longwear-foundation-420?variant=35178864508973",
+            "rating": 5,
+            "rating_count": 5,
+            "rating_user": 1,
+            "rating_user_list": ",21",
+            "created_at": "2023-11-19T21:08:34.000000Z",
+            "updated_at": "2023-11-25T21:40:25.000000Z",
+            "image_src": "",
+            "status": 1,
+            "product_category": {
+                "id": 40,
+                "image": null,
+                "name": "Foundation",
+                "created_at": "2023-11-10T13:42:57.000000Z",
+                "updated_at": "2023-11-10T13:42:57.000000Z",
+                "image_src": null
+            },
+            "save_product": []
+        }
+    ]
+}

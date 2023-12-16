@@ -1,0 +1,32 @@
+{
+    "data": [
+        {
+            "id": 31,
+            "product_category_id": 47,
+            "image": "https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/americas/us/products-v4/moisturizing-cream/cerave_moisturizing_cream_16oz_jar_front-700x875-v3.jpg?rev=db6e3c22250e4928bc749dd2c207de5b&w=500&hash=6F959AC16DA324FFB9DCE0C5BFDC8AD5",
+            "multi_image": "[\"https:\\/\\/www.cerave.com\\/-\\/media\\/project\\/loreal\\/brand-sites\\/cerave\\/americas\\/us\\/product_dec2020\\/moisturizing-cream\\/700x875c\\/moisturizingcream700x875_03.jpg?rev=35c21dc042fa43cc888adcb3122d513c&w=500&hash=2D4FC9C2A1F35CCFF5E02B4809DC0FF6\",\"\\r\\nhttps:\\/\\/www.cerave.com\\/-\\/media\\/project\\/loreal\\/brand-sites\\/cerave\\/americas\\/us\\/product_dec2020\\/moisturizing-cream\\/700x875c\\/moisturizingcream700x875_01.jpg?rev=2168896a908648d489ceab28169fb16b&w=500&hash=799E8516C751AA0C482788D6B546B7D2\",\"\\r\\nhttps:\\/\\/www.cerave.com\\/-\\/media\\/project\\/loreal\\/brand-sites\\/cerave\\/americas\\/us\\/product_dec2020\\/moisturizing-cream\\/700x875c\\/moisturizingcream700x875_02.jpg?rev=861f2c2f4b2b4b5aab2dac9e77b718f3&w=500&hash=E46148916E1464BDD220FA179B6E5F4F\",\"\\r\\nhttps:\\/\\/www.byrdie.com\\/thmb\\/at5LMc0-hDA0QoO6ETlKDmailek=\\/750x0\\/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)\\/ScreenShot2022-12-13at11.44.02AM-5b736fcf481a4072b7d8da67a587a781.png\",\"\\r\\nhttps:\\/\\/princesscosmeticsqa.com\\/cdn\\/shop\\/products\\/213cd0_72201e08946743e2a6ecd1d16bd3db15_mv2.jpg?v=1661876553\"]",
+            "name": "CeraVe Moisturizing Cream",
+            "pdesc": "Elevate your skincare routine with CeraVe Moisturizing Cream, a dermatologist-developed product designed to cater to the unique needs of all skin types. This cream stands out in the realm of skincare with its innovative formula that combines essential ceramides and hyaluronic acid, components naturally found in the skin. These ingredients work synergistically to retain moisture and restore the skin's natural barrier.\r\n\r\nOne of the most notable features of CeraVe Moisturizing Cream is its MVE Technology. This groundbreaking approach allows for a slow release of the cream's active ingredients, ensuring your skin remains hydrated throughout the day. This prolonged effect means that your skin benefits from continuous nourishment, even hours after application.\r\n\r\nThe cream's composition is free from fragrances, oils, and is hypoallergenic, making it a gentle yet effective option for all, including those with sensitive skin or conditions like eczema. Its non-comedogenic nature ensures that it does not clog pores, reducing the likelihood of acne breakouts.\r\n\r\nRegular use of CeraVe Moisturizing Cream can lead to a noticeable improvement in your skin\u2019s ability to retain moisture. Its hydrating effects are not just superficial but contribute to a healthier skin structure over time.\r\n\r\nCeraVe's commitment to quality and effectiveness has made it a trusted choice among dermatologists. Whether you're using it on your face, hands, or body, this cream adapts to provide the right level of moisture without leaving a greasy residue. It's a versatile product suitable for daily use, regardless of your skin type or concerns.\r\n\r\nIn summary, CeraVe Moisturizing Cream is more than just a moisturizer; it's a skin health enhancer. Its advanced formula, backed by dermatological science, offers long-lasting hydration and protection, making it an essential addition to your skincare regimen.",
+            "price": "14.62",
+            "video_link": "https://www.youtube.com/watch?v=Sjynjw6cJJI&t=1s&ab_channel=CeraVeSkincare",
+            "visit_link": "https://www.cerave.com/skincare/moisturizers/moisturizing-cream",
+            "rating": 5,
+            "rating_count": 5,
+            "rating_user": 1,
+            "rating_user_list": ",16",
+            "created_at": "2023-11-22T16:21:50.000000Z",
+            "updated_at": "2023-11-24T13:21:43.000000Z",
+            "image_src": "",
+            "status": 1,
+            "product_category": {
+                "id": 47,
+                "image": null,
+                "name": "Moisturizing Creams",
+                "created_at": "2023-11-10T13:43:56.000000Z",
+                "updated_at": "2023-11-10T13:43:56.000000Z",
+                "image_src": null
+            },
+            "save_product": []
+        }
+    ]
+}
