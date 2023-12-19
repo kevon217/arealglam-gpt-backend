@@ -1,0 +1,73 @@
+{
+    "data": [
+        {
+            "id": 23,
+            "product_category_id": 39,
+            "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_790/01/nm_4658583_100106_e",
+            "multi_image": "[\"https:\\/\\/img.mytheresa.com\\/1094\\/1236\\/90\\/jpeg\\/catalog\\/product\\/9c\\/P00858726.jpg\",\"\\r\\nhttps:\\/\\/img.mytheresa.com\\/1094\\/1236\\/90\\/jpeg\\/catalog\\/product\\/9c\\/P00858726_d4.jpg\",\"\\r\\nhttps:\\/\\/cdn-images.farfetch-contents.com\\/21\\/31\\/49\\/90\\/21314990_51217401_1000.jpg\",\"\\r\\nhttps:\\/\\/cdn.endource.com\\/image\\/294bc2641a6ff42f85b9fa7c764772d7\\/detail\\/saint-laurent-lee-110-buckled-patent-leather-pumps.jpg?optimizer=image&class=800\",\"\\r\\nhttps:\\/\\/cdn-images.farfetch-contents.com\\/21\\/31\\/49\\/90\\/21314990_51217409_322.jpg\"]",
+            "name": "Saint Laurent Lee Pumps",
+            "pdesc": "The Saint Laurent Lee Pumps stand as an emblem of luxurious elegance and bold fashion statements, a must-have for those who appreciate the allure of high-end fashion. Crafted with meticulous attention to detail, these pumps are a testament to Saint Laurent's renowned craftsmanship and sophisticated design philosophy.\r\n\r\nAt the heart of the Saint Laurent Lee Pumps' appeal is their exquisite patent-leather finish, which gleams with a polished sheen. This high-quality material not only ensures durability but also imparts a sleek, refined look that catches the eye. The leather's texture and shine make these pumps a versatile choice, seamlessly transitioning from day to night and complementing a wide range of outfits.\r\n\r\nAdding to their distinctiveness is the metallic buckle adorning the ankle strap. This detail is not just functional but also serves as a striking decorative element, enhancing the overall aesthetic of the shoe. The buckle's gleaming presence offers a subtle yet impactful contrast to the smooth patent leather, creating an elegant interplay of textures and finishes.\r\n\r\nThe sculptural heels of the Saint Laurent Lee Pumps are another standout feature. These towering heels are expertly designed to offer both height and stability, ensuring that the wearer can walk with confidence and comfort. The heel's unique shape adds an artistic touch to the shoe, making it a piece of wearable art that is sure to turn heads.\r\n\r\nFurthermore, these pumps embody the essence of contemporary fashion with a nod to timeless elegance. The Saint Laurent Lee Pumps are versatile enough to pair with everything from tailored trousers and pencil skirts to cocktail dresses and evening gowns. They are the perfect choice for those seeking to make a statement at high-profile events, important meetings, or elegant evenings out.",
+            "pdetails": {
+                "Brand": "Zara",
+                "Product Type": "Slip Dress",
+                "Material": "Lightweight Fabric",
+                "Price": "$49.90",
+                "Color": "Neutral",
+                "Fit": "Flattering",
+                "Occasion": "Evening Events, Daytime Gatherings",
+                "Special Features": "Pleated, Ruffled Neckline",
+                "Seasonality": "Not Specified",
+                "Other...": "Create more fields for whatever else you want to include"
+            },
+            "price": "1,090",
+            "video_link": "https://www.youtube.com/watch?v=SjTjaCooCuo&ab_channel=SaintLaurent",
+            "visit_link": "https://www.ysl.com/en-us/lee-slingback-pumps-in-patent-leather-813134002.html",
+            "rating": 5,
+            "rating_count": 5,
+            "rating_user": 1,
+            "rating_user_list": ",21",
+            "created_at": "2023-11-18T15:51:27.000000Z",
+            "updated_at": "2023-11-25T21:40:29.000000Z",
+            "image_src": "",
+            "status": 1,
+            "product_category": {
+                "id": 39,
+                "image": null,
+                "name": "High Heels",
+                "created_at": "2023-11-10T13:42:49.000000Z",
+                "updated_at": "2023-11-10T13:42:49.000000Z",
+                "image_src": null
+            },
+            "save_product": [
+                {
+                    "id": 106,
+                    "user_id": 20,
+                    "product_id": 23,
+                    "created_at": "2023-11-19T20:44:08.000000Z",
+                    "updated_at": "2023-11-19T20:44:08.000000Z",
+                    "user": {
+                        "id": 20,
+                        "name": "Dave Waldorf",
+                        "email": "dave.waldorf@me.com",
+                        "email_verified_at": null,
+                        "created_at": "2023-11-15T21:43:48.000000Z",
+                        "updated_at": "2023-11-15T21:43:48.000000Z"
+                    }
+                },
+                {
+                    "id": 107,
+                    "user_id": 17,
+                    "product_id": 23,
+                    "created_at": "2023-11-21T10:52:28.000000Z",
+                    "updated_at": "2023-11-21T10:52:28.000000Z",
+                    "user": {
+                        "id": 17,
+                        "name": "Nico Oasis",
+                        "email": "oasisqi2@gmail.com",
+                        "email_verified_at": null,
+                        "created_at": "2023-11-08T13:06:23.000000Z",
+                        "updated_at": "2023-11-08T13:06:23.000000Z"
+                    }
+                }
+            ]
+        }]}

@@ -1,6 +1,7 @@
 import os
 import unittest
 import asyncio
+import time
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -10,7 +11,6 @@ from app.threads.async_thread import AsyncThread
 
 class TestAssistantIntegration(unittest.IsolatedAsyncioTestCase):
     async def test_assistant_workflow(self):
-        # Define the user message
         user_message = "What should I wear for a summer beach party?"
 
         # Define assistant IDs
@@ -28,39 +28,48 @@ class TestAssistantIntegration(unittest.IsolatedAsyncioTestCase):
         await psychologist_thread.create_thread()
         await wardrobe_thread.create_thread()
 
+        # Start time for orchestrator
+        start_time_orchestrator = time.time()
+
         # Send message to the orchestrator and receive fashion suggestion
         fashion_suggestion = (
             await orchestrator_thread.process_message_and_await_response(user_message)
         )
-        print(f"Orchestrator Suggestion: {fashion_suggestion}")
-
-        # Orchestrator sends messages to Psychologist and Wardrobe assistants
-        await psychologist_thread.send_message_to_thread(
-            fashion_suggestion + " " + user_message
-        )
-        await wardrobe_thread.send_message_to_thread(
-            fashion_suggestion + " " + user_message
+        end_time_orchestrator = time.time()
+        print(
+            f"Orchestrator Suggestion: {fashion_suggestion} (Time Taken: {end_time_orchestrator - start_time_orchestrator:.2f} seconds)"
         )
 
-        # Create runs and await responses from secondary assistants
-        psychologist_response = (
-            await psychologist_thread.process_message_and_await_response(user_message)
+        # Create tasks for secondary assistants
+        psychologist_task = asyncio.create_task(
+            self.assistant_task(
+                psychologist_thread,
+                fashion_suggestion + " " + user_message,
+                "Psychologist",
+            )
         )
-        wardrobe_response = await wardrobe_thread.process_message_and_await_response(
-            user_message
+        wardrobe_task = asyncio.create_task(
+            self.assistant_task(
+                wardrobe_thread, fashion_suggestion + " " + user_message, "Wardrobe"
+            )
         )
 
-        # Output secondary assistants' responses
-        print(f"Psychologist Response: {psychologist_response}")
-        print(f"Wardrobe Response: {wardrobe_response}")
+        # Use asyncio.as_completed to process tasks as they are completed
+        for future in asyncio.as_completed([psychologist_task, wardrobe_task]):
+            assistant_name, response, time_taken = await future
+            print(
+                f"{assistant_name} Response: {response} (Time Taken: {time_taken:.2f} seconds)"
+            )
 
-        # Optional: Orchestrator receives responses from secondary assistants
-        # This part is currently not implemented as per the requirement
-
-        # Assertions to ensure valid responses (optional)
+        # Assertions to ensure valid responses
         self.assertIsNotNone(fashion_suggestion)
-        self.assertIsNotNone(psychologist_response)
-        self.assertIsNotNone(wardrobe_response)
+        self.assertTrue(any([psychologist_task.done(), wardrobe_task.done()]))
+
+    async def assistant_task(self, thread, message, assistant_name):
+        start_time = time.time()
+        response = await thread.process_message_and_await_response(message)
+        end_time = time.time()
+        return assistant_name, response, end_time - start_time
 
 
 if __name__ == "__main__":

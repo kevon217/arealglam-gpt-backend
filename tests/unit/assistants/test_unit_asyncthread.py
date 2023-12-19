@@ -1,7 +1,8 @@
 import unittest
 from unittest.mock import patch, AsyncMock
 from app.threads.async_thread import AsyncThread
-from app.services import orchestrator_service, secondary_services
+from app.services import secondary_services
+from services import assistant_processing
 
 
 class TestAsyncThread(unittest.TestCase):
@@ -15,7 +16,7 @@ class TestAsyncThread(unittest.TestCase):
 class TestOrchestratorService(unittest.TestCase):
     @patch("app.services.orchestrator_service.AsyncThread", new_callable=AsyncMock)
     async def test_process_with_orchestrator(self, mock_thread):
-        result = await orchestrator_service.process_with_orchestrator("test_input")
+        result = await assistant_processing.process_with_orchestrator("test_input")
         mock_thread.create_thread.assert_called_once()
         mock_thread.send_message.assert_called_once()
         mock_thread.await_response.assert_called_once()

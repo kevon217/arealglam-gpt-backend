@@ -14,11 +14,15 @@ deepdiff = "6.7.1"
 termcolor = "2.3.0"
 fastapi = "^0.105.0"
 uvicorn = "^0.24.0.post1"
+websockets = "^12.0"
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.26.0"
 jupytext = "^1.15.2"
 pre-commit = "^3.5.0"
+requests = "^2.31.0"
+pyyaml = "^6.0.1"
+colorlog = "^6.8.0"
 
 [build-system]
 requires = ["poetry-core"]
