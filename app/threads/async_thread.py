@@ -5,7 +5,7 @@ from colorlog import ColoredFormatter
 
 
 import openai
-from app.utils.oai_client_async import get_openai_client
+from utils.oai_client_async import get_openai_client
 
 
 class AsyncThread:

@@ -3,7 +3,7 @@ import os
 import asyncio
 from dotenv import load_dotenv
 
-from app.threads.async_thread import AsyncThread
+from threads.async_thread import AsyncThread
 
 # from app.utils.assistants import get_assistant
 

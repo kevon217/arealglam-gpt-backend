@@ -2,8 +2,16 @@
 /scrap
 /tests
 notes.md
-build_container.sh
-run_container.sh
+testing_notes.md
+fastapi_key.md
+.env.*
+assistants/create_assistants.py
+assistants/knowledge_bases/
+aws/
+awscliv2.zip
+
+*.sh
+*.pem
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -1,0 +1,14 @@
+# Ignore directories
+**/__pycache__
+**/tests
+**/scrap
+**/frontend
+**/data
+**/assistants
+
+# Ignore specific files
+*.log
+*.code-workspace
+*.sh
+*.md
+*.yaml
