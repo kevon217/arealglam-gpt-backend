@@ -1,3 +1,6 @@
+import sys
+
+sys.path.append("/app")
 import json
 import asyncio
 import logging
@@ -6,10 +9,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse  # for testing
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
-
-import sys
-
-sys.path.append("/app")
 from utils.websockets import ConnectionManager
 from services.assistant_processing import (
     process_with_orchestrator,
@@ -67,9 +66,10 @@ async def websocket_endpoint(websocket: WebSocket):
             # Send the message to the orchestrator
             logger.info("Running process_with_orchestrator")
             initial_suggestion = await process_with_orchestrator(data["message"])
-            logger.info(f"Orchestrator response: {initial_suggestion[0]}")
+            print(initial_suggestion)
+            logger.info(f"Orchestrator response: {initial_suggestion}")
             await manager.send_personal_message(
-                json.dumps({"fashion_suggestion": initial_suggestion[0]}), websocket
+                json.dumps({"fashion_suggestion": initial_suggestion}), websocket
             )
 
             logger.info("Initializing secondary agent tasks")
@@ -117,7 +117,8 @@ async def websocket_endpoint(websocket: WebSocket):
 
     except WebSocketDisconnect:
         await manager.disconnect(websocket)
-    # TO DO: NOT YET IMPLEMENTED!
+
+    # TO DO:
     # finally:
     #     # Disconnect only if WebSocket is not already closed
     #     if not websocket.application_state == WebSocketState.DISCONNECTED:
@@ -128,4 +129,3 @@ if __name__ == "__main__":
     import uvicorn
 
     uvicorn.run(app, host="0.0.0.0", port=8000)
-    # uvicorn.run(app, host="0.0.0.0", port=8000, reload=True) # for testing
