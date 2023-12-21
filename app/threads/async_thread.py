@@ -5,13 +5,13 @@ from colorlog import ColoredFormatter
 
 
 import openai
-from utils.oai_client_async import get_openai_client
+from utils.oai_clients import get_openai_async_client
 
 
 class AsyncThread:
     def __init__(self, assistant_id):
         self.assistant_id = assistant_id
-        self.client = get_openai_client()
+        self.client = get_openai_async_client()
         self.function_calls = []  # Store function calls for processing
 
         # Set up colored logging

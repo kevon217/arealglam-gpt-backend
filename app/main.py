@@ -1,7 +1,8 @@
 import json
 import asyncio
 import logging
-from pydantic import BaseModel
+
+# from pydantic import BaseModel
 from fastapi import FastAPI, WebSocket, Depends, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse  # for testing
@@ -9,15 +10,12 @@ from fastapi.responses import HTMLResponse  # for testing
 import sys
 
 sys.path.append("/app")
-
-
 from utils.websockets import ConnectionManager
 from services.assistant_processing import (
     process_with_orchestrator,
     process_with_psychologist,
     process_with_wardrobe,
 )
-
 
 # Create logger
 logger = logging.getLogger(__name__)
@@ -51,6 +49,12 @@ app.add_middleware(
 @app.get("/", response_class=HTMLResponse)
 async def read_root():
     return "<html><body><h1>Welcome to the FastAPI Server</h1></body></html>"
+
+
+# Simple HTTP GET Endpoint for Testing
+@app.get("/ping")
+async def ping():
+    return {"message": "You are connected to A Real Glam' Fashion Adviser"}
 
 
 # Run the app
