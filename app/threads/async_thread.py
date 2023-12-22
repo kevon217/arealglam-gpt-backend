@@ -2,8 +2,6 @@ import asyncio
 import json
 import logging
 from colorlog import ColoredFormatter
-
-
 import openai
 from utils.oai_clients import get_openai_async_client
 
@@ -13,6 +11,9 @@ class AsyncThread:
         self.assistant_id = assistant_id
         self.client = get_openai_async_client()
         self.function_calls = []  # Store function calls for processing
+        self.format_wardrobe_response_handled = (
+            False  # Flag to track special processing
+        )
 
         # Set up colored logging
         self.logger = logging.getLogger(f"async_thread_{assistant_id}")
@@ -84,11 +85,53 @@ class AsyncThread:
                     result = await self.get_latest_assistant_message()
                     all_results.append(result)
                 break
-            elif status == "requires_action":
-                tool_outputs = await self.process_function_calls()
+            elif (
+                status == "requires_action"
+                and not self.format_wardrobe_response_handled
+            ):
+                (
+                    tool_outputs,
+                    continue_standard_process,
+                ) = await self.custom_function_handler()
+                if not continue_standard_process:
+                    all_results.extend(tool_outputs)
+                    self.format_wardrobe_response_handled = True
+                    break
                 await self.submit_tool_outputs_and_retrieve(tool_outputs)
-            await asyncio.sleep(1)
+            # await asyncio.sleep(1)
         return all_results
+
+    async def custom_function_handler(self):
+        tool_calls = self.run.required_action.submit_tool_outputs.tool_calls
+        processed_outputs = []
+        continue_standard_process = True
+
+        for tool_call in tool_calls:
+            function_name = tool_call.function.name
+            arguments = json.loads(tool_call.function.arguments)
+
+            if (
+                function_name == "format_wardrobe_response"
+                or function_name == "format_empty_wardrobe_response"
+            ):
+                # Custom processing for 'format_wardrobe_response' and 'format_empty_wardrobe_response'
+                json_result = self.parse_json_from_arguments(arguments)
+                processed_outputs.append(json_result)
+                continue_standard_process = False
+            else:
+                # Standard processing for other function calls
+                reformatted_query = self.reformat_for_search(function_name, arguments)
+                tool_output = {
+                    "tool_call_id": tool_call.id,
+                    "output": reformatted_query,
+                }
+                processed_outputs.append(tool_output)
+
+        return processed_outputs, continue_standard_process
+
+    def parse_json_from_arguments(self, arguments):
+        # Return the arguments directly as they are already in dictionary form
+        return arguments
 
     async def get_latest_assistant_message(self):
         # Retrieve the latest assistant message after the run has completed
@@ -134,6 +177,7 @@ class AsyncThread:
 
     async def process_message_and_await_response(self, message):
         self.logger.info("Processing message and awaiting response...")
+        self.format_wardrobe_response_handled = False  # Reset flag for new processing
         await self.send_message_to_thread(message)
         await self.create_run_for_thread()
         return await self.await_run_completion()

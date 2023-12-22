@@ -71,7 +71,7 @@ async def extract_wardrobe_details(suggestion):
     messages = [
         {
             "role": "user",
-            "content": f"Please use parallel function calls to individually extract specific wardrobe items (if they are described) in the following overall wardrobe suggestion. NOTE: If the wardrobe suggestion is missing any items that you have function tools for, do not use that function tool call. The overall wardrobe suggestion is: {suggestion}",
+            "content": f"Extract unique wardrobe items from this fashion suggestion, while considering variations and avoiding duplication of items: {suggestion}. Use parallel function calls for tops, bottoms, jackets, shoes, and accessories. You do not need to call a particular function if the item associated with that function is not present in the fashion suggestion text. Remember, do not repeat function calls on the same item or call a specific function if the item isn't mentioned.",
         }
     ]
     response = await client_async.chat.completions.create(
