@@ -2,13 +2,13 @@ parse_top = {
     "type": "function",
     "function": {
         "name": "extract_tops_details",
-        "description": "Isolate and categorize details about tops from the overall fashion suggestion for subsequent product matching, while avoiding duplication of items already extracted.",
+        "description": "Apply this function to each distinct top item or style mentioned in the fashion suggestion. If multiple options are suggested (e.g., 'kaftan or shirt'), treat each as a separate function call.",
         "parameters": {
             "type": "object",
             "properties": {
                 "description": {
                     "type": "string",
-                    "description": "Detailed attributes of tops, such as style, color, and fabric, as extracted from the fashion suggestion.",
+                    "description": "Detailed attributes of top, such as style, color, and fabric, as extracted from the fashion suggestion.",
                 }
             },
             "required": ["description"],
@@ -20,7 +20,7 @@ parse_bottom = {
     "type": "function",
     "function": {
         "name": "extract_bottoms_details",
-        "description": "Focus on extracting specifics about bottoms like trousers or skirts from the fashion suggestion for product matching, while avoiding duplication of items already extracted.",
+        "description": "Use this function for each different bottom item or style specified in the fashion suggestion. Multiple options for bottoms should be processed individually.",
         "parameters": {
             "type": "object",
             "properties": {
@@ -39,7 +39,7 @@ parse_jacket = {
     "type": "function",
     "function": {
         "name": "extract_jackets_details",
-        "description": "Separate and detail jacket-related aspects from the fashion suggestion to aid in finding matching products, while avoiding duplication of items already extracted.",
+        "description": "This function should be applied to each unique jacket item or style present in the fashion suggestion. If various jacket options are given, address each one separately.",
         "parameters": {
             "type": "object",
             "properties": {
@@ -58,7 +58,7 @@ parse_shoes = {
     "type": "function",
     "function": {
         "name": "extract_shoes_details",
-        "description": "Identify and categorize details about shoes from the fashion suggestion for accurate product retrieval, while avoiding duplication of items already extracted.",
+        "description": "Engage this function for each specific shoe item or style identified in the fashion suggestion. Separate multiple shoe options and process them individually.",
         "parameters": {
             "type": "object",
             "properties": {
@@ -77,7 +77,7 @@ parse_accessories = {
     "type": "function",
     "function": {
         "name": "extract_accessories_details",
-        "description": "Distinguish and categorize accessory details from the fashion suggestion for relevant product searches, while avoiding duplication of items already extracted.",
+        "description": "Utilize this function for every distinct accessory item or style mentioned. If accessories are grouped (e.g., 'hat, sunglasses'), apply the function to each accessory separately.",
         "parameters": {
             "type": "object",
             "properties": {
@@ -96,7 +96,7 @@ wardrobe_tools = [parse_top, parse_bottom, parse_jacket, parse_shoes, parse_acce
 
 format_wardrobe_response = {
     "name": "format_wardrobe_response",
-    "description": "Format the found products into a structured JSON response. This function should be used when one or more relevant products are identified in the knowledge base.",
+    "description": "This function should be used when one or more relevant products are identified in the knowledge base. Format the found products into a structured JSON response.",
     "parameters": {
         "type": "object",
         "properties": {
@@ -119,13 +119,13 @@ format_wardrobe_response = {
                 "description": "A list of product details. This list should contain at least one product when relevant matches are found.",
             }
         },
-        "required": ["products"],
+        "required": [],
     },
 }
 
 format_empty_wardrobe_response = {
     "name": "format_empty_wardrobe_response",
-    "description": "Generate a structured JSON response with an empty product list. Use this function when no relevant products are found in the knowledge base, indicating a null result.",
+    "description": "Use this function when no relevant products are found in the knowledge base, indicating a null result. Generate a structured JSON response with an empty product list.",
     "parameters": {
         "type": "object",
         "properties": {
@@ -143,6 +143,6 @@ format_empty_wardrobe_response = {
                 "description": "An object representing an empty product list, used to indicate that no matching products were identified.",
             }
         },
-        "required": ["empty_response"],
+        "required": [],
     },
 }

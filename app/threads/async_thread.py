@@ -85,19 +85,19 @@ class AsyncThread:
                     result = await self.get_latest_assistant_message()
                     all_results.append(result)
                 break
-            elif (
-                status == "requires_action"
-                and not self.format_wardrobe_response_handled
-            ):
-                (
-                    tool_outputs,
-                    continue_standard_process,
-                ) = await self.custom_function_handler()
-                if not continue_standard_process:
-                    all_results.extend(tool_outputs)
-                    self.format_wardrobe_response_handled = True
+            elif status == "requires_action":
+                if not self.format_wardrobe_response_handled:
+                    (
+                        tool_outputs,
+                        continue_standard_process,
+                    ) = await self.custom_function_handler()
+                    if continue_standard_process:
+                        await self.submit_tool_outputs_and_retrieve(tool_outputs)
+                    else:
+                        all_results.extend(tool_outputs)
+                        self.format_wardrobe_response_handled = True
+                else:
                     break
-                await self.submit_tool_outputs_and_retrieve(tool_outputs)
             # await asyncio.sleep(1)
         return all_results
 
