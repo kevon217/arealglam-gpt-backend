@@ -1,5 +1,0 @@
-tests:
-  user_message:
-    - "What should I wear for a summer beach party?"
-    - "Suggest a business casual outfit for a conference."
-  metrics: ["response_length", "response_time"]
