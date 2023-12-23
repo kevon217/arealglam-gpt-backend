@@ -12,7 +12,7 @@ from app.services.assistant_processing import (
     process_with_orchestrator,
     process_with_psychologist,
     process_with_wardrobe,
-    extract_wardrobe_details,
+    extract_wardrobe_items,
 )
 
 
@@ -50,16 +50,16 @@ class TestAssistantsPipeline(unittest.IsolatedAsyncioTestCase):
         task_map[psychologist_task] = "psychologist"
 
         # Extract wardrobe details and initialize tasks for each detail
-        wardrobe_details = await extract_wardrobe_details(initial_suggestion)
+        wardrobe_items = await extract_wardrobe_items(initial_suggestion)
 
         # Wrapper function for each wardrobe task with unique identifier
-        for i, detail in enumerate(wardrobe_details, start=1):
+        for i, item in enumerate(wardrobe_items, start=1):
 
-            async def wrapped_wardrobe_task(detail, index):
-                result = await process_with_wardrobe(detail)
+            async def wrapped_wardrobe_task(item, index):
+                result = await process_with_wardrobe(item)
                 return (f"wardrobe_{index}", result)
 
-            wardrobe_task = asyncio.create_task(wrapped_wardrobe_task(detail, i))
+            wardrobe_task = asyncio.create_task(wrapped_wardrobe_task(item, i))
             task_map[wardrobe_task] = f"wardrobe_{i}"
 
         # Process tasks as they complete and store results

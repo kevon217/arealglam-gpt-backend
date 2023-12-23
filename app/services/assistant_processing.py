@@ -52,18 +52,26 @@ async def process_with_psychologist(suggestion):
 
 def parse_tool_call_outputs(tool_calls):
     """
-    Parse the tool call outputs into a list of descriptions.
+    Parse the tool call outputs into a list of categories, each containing its descriptions.
     """
-    descriptions = []
+    category_lists = []
     for tool_call in tool_calls:
-        # Assuming the output is in the form of {"description": "..."}
-        description = json.loads(tool_call.function.arguments).get("description")
-        if description:
-            descriptions.append(description)
-    return descriptions
+        wardrobe_items = json.loads(tool_call.function.arguments).get(
+            "wardrobe_items", {}
+        )
+
+        # Iterate over each category in wardrobe_items
+        for category, items in wardrobe_items.items():
+            if items:  # Check if the category has items
+                category_lists.append(
+                    items
+                )  # Append the list of items for this category
+
+    # NOTE: may want to consider separate searches for multiple items in a single category list
+    return category_lists
 
 
-async def extract_wardrobe_details(suggestion):
+async def extract_wardrobe_items(suggestion):
     """
     Extract the wardrobe details from the suggestion.
     """
@@ -78,25 +86,28 @@ async def extract_wardrobe_details(suggestion):
         model="gpt-3.5-turbo-1106",
         messages=messages,
         tools=wardrobe_tools,
-        tool_choice="auto",  # auto is default, but we'll be explicit
+        tool_choice={
+            "type": "function",
+            "function": {"name": "extract_wardrobe_items"},
+        },  # auto is default, but we'll be explicit
     )
     tool_calls = response.choices[0].message.tool_calls
-    wardrobe_details = parse_tool_call_outputs(tool_calls)
-    return wardrobe_details
+    wardrobe_items = parse_tool_call_outputs(tool_calls)
+    return wardrobe_items
 
 
-async def process_with_wardrobe(wardrobe_details):
+async def process_with_wardrobe(wardrobe_items):
     """
     Process a single wardrobe item description with the wardrobe assistant.
     """
-    logger.info(f"Retrieving product IDs for: {wardrobe_details}")
+    logger.info(f"Retrieving product IDs for: {wardrobe_items}")
     wardrobe_id = os.getenv("WARDROBE_ASSISTANT_ID")
     wardrobe_thread = AsyncThread(wardrobe_id)
 
     await wardrobe_thread.create_thread()
     product_ids = await wardrobe_thread.process_message_and_await_response(
-        wardrobe_details
+        wardrobe_items
     )
-    logger.info(f"Retrieved product IDs for '{wardrobe_details}': {product_ids}")
+    logger.info(f"Retrieved product IDs for '{wardrobe_items}': {product_ids}")
 
     return product_ids

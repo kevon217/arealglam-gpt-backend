@@ -1,98 +1,145 @@
-parse_top = {
+extract_wardrobe_items = {
     "type": "function",
     "function": {
-        "name": "extract_tops_details",
-        "description": "Apply this function to each distinct top item or style mentioned in the fashion suggestion. If multiple options are suggested (e.g., 'kaftan or shirt'), treat each as a separate function call.",
+        "name": "extract_wardrobe_items",
+        "description": "Extracts detailed information about various wardrobe items (tops, bottoms, jackets, shoes, accessories) from a fashion suggestion. For any category not mentioned in the suggestion, an empty array or null value is returned.",
         "parameters": {
             "type": "object",
             "properties": {
-                "description": {
-                    "type": "string",
-                    "description": "Detailed attributes of top, such as style, color, and fabric, as extracted from the fashion suggestion.",
+                "wardrobe_items": {
+                    "type": "object",
+                    "description": "An object containing arrays of details for each wardrobe category.",
+                    "properties": {
+                        "tops": {
+                            "type": "array",
+                            "items": {"type": "string"},
+                            "description": "Array of top details, empty if no tops are mentioned.",
+                        },
+                        "bottoms": {
+                            "type": "array",
+                            "items": {"type": "string"},
+                            "description": "Array of bottom details, empty if no bottoms are mentioned.",
+                        },
+                        "jackets": {
+                            "type": "array",
+                            "items": {"type": "string"},
+                            "description": "Array of jacket details, empty if no jackets are mentioned.",
+                        },
+                        "shoes": {
+                            "type": "array",
+                            "items": {"type": "string"},
+                            "description": "Array of shoe details, empty if no shoes are mentioned.",
+                        },
+                        "accessories": {
+                            "type": "array",
+                            "items": {"type": "string"},
+                            "description": "Array of accessory details, empty if no accessories are mentioned.",
+                        },
+                    },
+                    "required": ["tops", "bottoms", "jackets", "shoes", "accessories"],
                 }
             },
-            "required": ["description"],
-        },
-    },
-}
-
-parse_bottom = {
-    "type": "function",
-    "function": {
-        "name": "extract_bottoms_details",
-        "description": "Use this function for each different bottom item or style specified in the fashion suggestion. Multiple options for bottoms should be processed individually.",
-        "parameters": {
-            "type": "object",
-            "properties": {
-                "description": {
-                    "type": "string",
-                    "description": "Details about bottoms, including style, fit, and material, as identified in the fashion suggestion.",
-                }
-            },
-            "required": ["description"],
-        },
-    },
-}
-
-
-parse_jacket = {
-    "type": "function",
-    "function": {
-        "name": "extract_jackets_details",
-        "description": "This function should be applied to each unique jacket item or style present in the fashion suggestion. If various jacket options are given, address each one separately.",
-        "parameters": {
-            "type": "object",
-            "properties": {
-                "description": {
-                    "type": "string",
-                    "description": "Characteristics of jackets, such as material, cut, and style, as derived from the fashion suggestion.",
-                }
-            },
-            "required": ["description"],
+            "required": ["fashion_suggestion", "wardrobe_items"],
         },
     },
 }
 
 
-parse_shoes = {
-    "type": "function",
-    "function": {
-        "name": "extract_shoes_details",
-        "description": "Engage this function for each specific shoe item or style identified in the fashion suggestion. Separate multiple shoe options and process them individually.",
-        "parameters": {
-            "type": "object",
-            "properties": {
-                "description": {
-                    "type": "string",
-                    "description": "Specifics about shoes, including type, occasion, and style, as mentioned in the fashion suggestion.",
-                }
-            },
-            "required": ["description"],
-        },
-    },
-}
+# parse_top = {
+#     "type": "function",
+#     "function": {
+#         "name": "extract_tops_details",
+#         "description": "Apply this function to each distinct top item or style mentioned in the fashion suggestion. If multiple options are suggested (e.g., 'kaftan or shirt'), treat each as a separate function call.",
+#         "parameters": {
+#             "type": "object",
+#             "properties": {
+#                 "description": {
+#                     "type": "string",
+#                     "description": "Detailed attributes of top, such as style, color, and fabric, as extracted from the fashion suggestion.",
+#                 }
+#             },
+#             "required": ["description"],
+#         },
+#     },
+# }
+
+# parse_bottom = {
+#     "type": "function",
+#     "function": {
+#         "name": "extract_bottoms_details",
+#         "description": "Use this function for each different bottom item or style specified in the fashion suggestion. Multiple options for bottoms should be processed individually.",
+#         "parameters": {
+#             "type": "object",
+#             "properties": {
+#                 "description": {
+#                     "type": "string",
+#                     "description": "Details about bottoms, including style, fit, and material, as identified in the fashion suggestion.",
+#                 }
+#             },
+#             "required": ["description"],
+#         },
+#     },
+# }
 
 
-parse_accessories = {
-    "type": "function",
-    "function": {
-        "name": "extract_accessories_details",
-        "description": "Utilize this function for every distinct accessory item or style mentioned. If accessories are grouped (e.g., 'hat, sunglasses'), apply the function to each accessory separately.",
-        "parameters": {
-            "type": "object",
-            "properties": {
-                "description": {
-                    "type": "string",
-                    "description": "Details of accessories, like type and style, as they are described in the fashion suggestion.",
-                }
-            },
-            "required": ["description"],
-        },
-    },
-}
+# parse_jacket = {
+#     "type": "function",
+#     "function": {
+#         "name": "extract_jackets_details",
+#         "description": "This function should be applied to each unique jacket item or style present in the fashion suggestion. If various jacket options are given, address each one separately.",
+#         "parameters": {
+#             "type": "object",
+#             "properties": {
+#                 "description": {
+#                     "type": "string",
+#                     "description": "Characteristics of jackets, such as material, cut, and style, as derived from the fashion suggestion.",
+#                 }
+#             },
+#             "required": ["description"],
+#         },
+#     },
+# }
 
 
-wardrobe_tools = [parse_top, parse_bottom, parse_jacket, parse_shoes, parse_accessories]
+# parse_shoes = {
+#     "type": "function",
+#     "function": {
+#         "name": "extract_shoes_details",
+#         "description": "Engage this function for each specific shoe item or style identified in the fashion suggestion. Separate multiple shoe options and process them individually.",
+#         "parameters": {
+#             "type": "object",
+#             "properties": {
+#                 "description": {
+#                     "type": "string",
+#                     "description": "Specifics about shoes, including type, occasion, and style, as mentioned in the fashion suggestion.",
+#                 }
+#             },
+#             "required": ["description"],
+#         },
+#     },
+# }
+
+
+# parse_accessories = {
+#     "type": "function",
+#     "function": {
+#         "name": "extract_accessories_details",
+#         "description": "Utilize this function for every distinct accessory item or style mentioned. If accessories are grouped (e.g., 'hat, sunglasses'), apply the function to each accessory separately.",
+#         "parameters": {
+#             "type": "object",
+#             "properties": {
+#                 "description": {
+#                     "type": "string",
+#                     "description": "Details of accessories, like type and style, as they are described in the fashion suggestion.",
+#                 }
+#             },
+#             "required": ["description"],
+#         },
+#     },
+# }
+
+wardrobe_tools = [extract_wardrobe_items]
+# wardrobe_tools = [parse_top, parse_bottom, parse_jacket, parse_shoes, parse_accessories]
 
 format_wardrobe_response = {
     "name": "format_wardrobe_response",

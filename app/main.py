@@ -10,7 +10,7 @@ from utils.websockets import ConnectionManager
 from services.assistant_processing import (
     process_with_orchestrator,
     process_with_psychologist,
-    extract_wardrobe_details,
+    extract_wardrobe_items,
     process_with_wardrobe,
 )
 
@@ -83,15 +83,15 @@ async def websocket_endpoint(websocket: WebSocket):
             task_map[psychologist_task] = "psychologist"
 
             # WARDROBE TASKS
-            wardrobe_details = await extract_wardrobe_details(initial_suggestion)
-            for i, detail in enumerate(wardrobe_details, start=1):
+            wardrobe_items = await extract_wardrobe_items(initial_suggestion)
+            for i, item in enumerate(wardrobe_items, start=1):
 
-                async def wrapped_wardrobe_task(detail, index):
-                    result = await process_with_wardrobe(detail)
+                async def wrapped_wardrobe_task(item, index):
+                    result = await process_with_wardrobe(item)
                     return (f"wardrobe_{index}", result)
 
                 # Create task for each wardrobe item
-                wardrobe_task = asyncio.create_task(wrapped_wardrobe_task(detail, i))
+                wardrobe_task = asyncio.create_task(wrapped_wardrobe_task(item, i))
                 task_map[wardrobe_task] = f"wardrobe_{i}"
 
             # PROCESS PSYCHOLOGIST & WARDROBE RETRIEVAL TASKS
