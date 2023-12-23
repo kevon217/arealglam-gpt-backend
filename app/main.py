@@ -93,7 +93,7 @@ async def websocket_endpoint(websocket: WebSocket):
                 async def wrapped_psychologist_task():
                     psychologist_response = await process_with_psychologist(
                         fashion_suggestion
-                    )
+                    )  # TODO: ADD USER'S MESSAGE TO PSYCHOLOGIST TASK AS WELL
                     return ("psychologist", psychologist_response)
 
                 psychologist_task = asyncio.create_task(wrapped_psychologist_task())
