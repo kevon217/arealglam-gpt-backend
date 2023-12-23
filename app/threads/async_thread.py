@@ -14,25 +14,11 @@ class AsyncThread:
         self.format_wardrobe_response_handled = (
             False  # Flag to track special processing
         )
-
-        # Set up colored logging
-        self.logger = logging.getLogger(f"async_thread_{assistant_id}")
-        self.logger.setLevel(logging.INFO)
-        handler = logging.StreamHandler()
-        handler.setFormatter(
-            ColoredFormatter(
-                "%(log_color)s%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-                datefmt="%Y-%m-%d %H:%M:%S",
-                log_colors={
-                    "DEBUG": "cyan",
-                    "INFO": "green",
-                    "WARNING": "yellow",
-                    "ERROR": "red",
-                    "CRITICAL": "red,bg_white",
-                },
-            )
+        # Use the centralized logger
+        self.logger = logging.getLogger("ARealGlamApp.async_thread")
+        self.logger.propagate = (
+            True  # Prevent logging messages from propagating to the root logger
         )
-        self.logger.addHandler(handler)
 
     async def create_thread(self):
         self.thread = await self.client.beta.threads.create()

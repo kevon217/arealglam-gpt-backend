@@ -4,6 +4,7 @@ import logging
 import json
 from dotenv import load_dotenv
 from utils.oai_clients import client_async
+from utils.logging_setup import setup_logging
 from threads.async_thread import AsyncThread
 from assistants.function_calls.wardrobe_functions import wardrobe_tools
 
@@ -11,11 +12,9 @@ from assistants.function_calls.wardrobe_functions import wardrobe_tools
 
 load_dotenv()
 
-# Create logger
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
-console_handler = logging.StreamHandler()
-logger.addHandler(console_handler)
+# Use the centralized logger
+logger = logging.getLogger("ARealGlamApp.async_thread")
+logger.propagate = True  # Prevent logging messages from propagating to the root logger
 
 
 async def process_with_orchestrator(user_input):
@@ -27,11 +26,11 @@ async def process_with_orchestrator(user_input):
     orchestrator_thread = AsyncThread(orchestrator_id)
 
     await orchestrator_thread.create_thread()
-    suggestion = await orchestrator_thread.process_message_and_await_response(
+    initial_response = await orchestrator_thread.process_message_and_await_response(
         user_input
     )
-    logger.info(f"Orchestrator suggestion: {suggestion}")
-    return suggestion
+    logger.info(f"Orchestrator's raw initial response: {initial_response}")
+    return initial_response
 
 
 async def process_with_psychologist(suggestion):
@@ -43,11 +42,11 @@ async def process_with_psychologist(suggestion):
     psychologist_thread = AsyncThread(psychologist_id)
 
     await psychologist_thread.create_thread()
-    psychology_result = await psychologist_thread.process_message_and_await_response(
-        suggestion
+    psychologist_response = (
+        await psychologist_thread.process_message_and_await_response(suggestion)
     )
-    logger.info(f"Psychologist result: {psychology_result}")
-    return psychology_result
+    logger.info(f"Psychologist's response: {psychologist_response}")
+    return psychologist_response
 
 
 def parse_tool_call_outputs(tool_calls):
@@ -59,7 +58,6 @@ def parse_tool_call_outputs(tool_calls):
         wardrobe_items = json.loads(tool_call.function.arguments).get(
             "wardrobe_items", {}
         )
-
         # Iterate over each category in wardrobe_items
         for category, items in wardrobe_items.items():
             if items:  # Check if the category has items
@@ -108,6 +106,6 @@ async def process_with_wardrobe(wardrobe_items):
     product_ids = await wardrobe_thread.process_message_and_await_response(
         wardrobe_items
     )
-    logger.info(f"Retrieved product IDs for '{wardrobe_items}': {product_ids}")
+    logger.info(f"Wardrobe retrieved product IDs for '{wardrobe_items}': {product_ids}")
 
     return product_ids

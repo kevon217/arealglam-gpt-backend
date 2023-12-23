@@ -10,6 +10,7 @@ from fastapi.responses import HTMLResponse  # for testing
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 from utils.websockets import ConnectionManager
+from utils.logging_setup import setup_logging
 from services.assistant_processing import (
     process_with_orchestrator,
     process_with_psychologist,
@@ -18,10 +19,7 @@ from services.assistant_processing import (
 )
 
 # Create logger
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
-console_handler = logging.StreamHandler()
-logger.addHandler(console_handler)
+logger = setup_logging()
 
 # Create FastAPI app
 app = FastAPI()
@@ -75,57 +73,80 @@ async def websocket_endpoint(websocket: WebSocket):
             task_map = {orchestrator_task: "orchestrator"}
             logger.info("Running process_with_orchestrator")
             _, orchestrator_result = await orchestrator_task
-            initial_suggestion = orchestrator_result[
-                0
-            ]  # Get the first item from the list of results
-            logger.info(f"Orchestrator response: {initial_suggestion}")
-            await manager.send_personal_message(
-                json.dumps({"orchestrator_suggestion": initial_suggestion}), websocket
-            )
+            initial_response = orchestrator_result[0]
 
-            logger.info("Initializing secondary agent tasks")
+            # DECIDE WHETHER TO PROCEED WITH SECONDARY AGENTS
+            if initial_response.endswith("[FASHION_OK]"):
+                proceed = True
+                fashion_suggestion = initial_response.replace(
+                    "[FASHION_OK]", ""
+                ).strip()
+                await manager.send_personal_message(
+                    json.dumps({"orchestrator_suggestion": fashion_suggestion}),
+                    websocket,
+                )
+            elif initial_response.endswith("[FASHION_WAIT]"):
+                proceed = False
+                normal_reply = initial_response.replace("[FASHION_WAIT]", "").strip()
+                await manager.send_personal_message(
+                    json.dumps({"orchestrator_reply": normal_reply}), websocket
+                )
+            else:
+                proceed = False  # Default action if no keyword is found
+                logging.debug(
+                    "Issue with Orchestrator assistant not ending with appropriate keyword."
+                )
 
-            # PSYCHOLOGIST TASK
-            async def wrapped_psychologist_task():
-                result = await process_with_psychologist(initial_suggestion)
-                return ("psychologist", result)
+            if proceed:
+                logger.info("Initializing secondary agent tasks")
 
-            psychologist_task = asyncio.create_task(wrapped_psychologist_task())
-            task_map[psychologist_task] = "psychologist"
-
-            # WARDROBE TASKS
-            wardrobe_items = await extract_wardrobe_items(initial_suggestion)
-            for i, item in enumerate(wardrobe_items, start=1):
-
-                async def wrapped_wardrobe_task(item, index):
-                    result = await process_with_wardrobe(item)
-                    return (f"wardrobe_{index}", result)
-
-                # Create task for each wardrobe item
-                wardrobe_task = asyncio.create_task(wrapped_wardrobe_task(item, i))
-                task_map[wardrobe_task] = f"wardrobe_{i}"
-
-            # PROCESS PSYCHOLOGIST & WARDROBE RETRIEVAL TASKS
-            for completed_coroutine in asyncio.as_completed(task_map.keys()):
-                task_type, completed_task_result = await completed_coroutine
-
-                # Send message based on task type
-                if task_type == "psychologist":
-                    await manager.send_personal_message(
-                        json.dumps({"psychologist_response": completed_task_result}),
-                        websocket,
+                # PSYCHOLOGIST TASK
+                async def wrapped_psychologist_task():
+                    psychologist_response = await process_with_psychologist(
+                        fashion_suggestion
                     )
-                elif task_type.startswith("wardrobe_"):
-                    await manager.send_personal_message(
-                        json.dumps({"wardrobe_retrieval": completed_task_result}),
-                        websocket,
-                    )
+                    return ("psychologist", psychologist_response)
 
-            logger.info("Finished processing secondary agents")
+                psychologist_task = asyncio.create_task(wrapped_psychologist_task())
+                task_map[psychologist_task] = "psychologist"
+
+                # WARDROBE TASKS
+                wardrobe_items = await extract_wardrobe_items(fashion_suggestion)
+                for i, item in enumerate(wardrobe_items, start=1):
+
+                    async def wrapped_wardrobe_task(item, index):
+                        product_ids = await process_with_wardrobe(item)
+                        return (f"wardrobe_{index}", product_ids)
+
+                    # Create task for each wardrobe item
+                    wardrobe_task = asyncio.create_task(wrapped_wardrobe_task(item, i))
+                    task_map[wardrobe_task] = f"wardrobe_{i}"
+
+                # PROCESS PSYCHOLOGIST & WARDROBE RETRIEVAL TASKS
+                for completed_coroutine in asyncio.as_completed(task_map.keys()):
+                    task_type, completed_task_result = await completed_coroutine
+
+                    # Send message based on task type
+                    if task_type == "psychologist":
+                        await manager.send_personal_message(
+                            json.dumps(
+                                {"psychologist_response": completed_task_result}
+                            ),
+                            websocket,
+                        )
+                    elif task_type.startswith("wardrobe_"):
+                        await manager.send_personal_message(
+                            json.dumps({"wardrobe_retrieval": completed_task_result}),
+                            websocket,
+                        )
+                logger.info("Finished processing secondary agents")
+            else:
+                logger.info("Not proceeding with secondary agents")
 
     except WebSocketDisconnect:
         await manager.disconnect(websocket)
-
+    except Exception as e:
+        logger.error(f"Unexpected error occurred: {e}", exc_info=True)
     # finally:
     #     # Disconnect only if WebSocket is not already closed
     #     if not websocket.application_state == WebSocketState.DISCONNECTED:
