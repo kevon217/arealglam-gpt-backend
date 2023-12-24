@@ -19,7 +19,7 @@ from app.services.assistant_processing import (
 class TestAssistantsPipeline(unittest.IsolatedAsyncioTestCase):
     async def test_assistant_workflow(self):
         # Load test configuration from YAML file
-        with open("tests/pipeline/config.yaml", "r") as config_file:
+        with open("tests/integration/config.yaml", "r") as config_file:
             config = yaml.safe_load(config_file)
 
         # Extract user message and assistant IDs from config
@@ -40,6 +40,17 @@ class TestAssistantsPipeline(unittest.IsolatedAsyncioTestCase):
         initial_suggestion = orchestrator_result[
             0
         ]  # Get the first item from the list of results
+
+        if initial_suggestion.endswith("[FASHION_OK]"):
+            proceed = True
+            fashion_suggestion = initial_suggestion.replace("[FASHION_OK]", "").strip()
+        elif initial_suggestion.endswith("[FASHION_WAIT]"):
+            proceed = False
+        else:
+            proceed = False  # Default action if no keyword is found
+            print(
+                "Issue with Orchestrator assistant not ending with appropriate keyword."
+            )
 
         # Wrapper function for psychologist task
         async def wrapped_psychologist_task():

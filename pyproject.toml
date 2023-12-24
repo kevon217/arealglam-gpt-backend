@@ -24,6 +24,7 @@ requests = "^2.31.0"
 pyyaml = "^6.0.1"
 colorlog = "^6.8.0"
 pandas = "^2.1.4"
+tiktoken = "^0.5.2"
 
 [build-system]
 requires = ["poetry-core"]

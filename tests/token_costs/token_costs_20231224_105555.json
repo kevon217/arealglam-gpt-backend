@@ -1,0 +1,32 @@
+{
+    "basis_costs": {
+        "chief_fashion_adviser": {
+            "model": "gpt-4-1106-preview",
+            "cost_per_1k_tokens": 0.01,
+            "expected_input_tokens": 50,
+            "custom_instructions_tokens": 445,
+            "expected_output_tokens": 100,
+            "total_tokens": 595,
+            "total_cost": 0.0059499999999999996
+        },
+        "psychologist": {
+            "model": "gpt-4-1106-preview",
+            "cost_per_1k_tokens": 0.01,
+            "expected_input_tokens": 100,
+            "custom_instructions_tokens": 443,
+            "expected_output_tokens": 350,
+            "total_tokens": 893,
+            "total_cost": 0.00893
+        },
+        "wardrobe_retriever": {
+            "model": "gpt-4-1106-preview",
+            "cost_per_1k_tokens": 0.01,
+            "expected_input_tokens": 100,
+            "custom_instructions_tokens": 493,
+            "expected_output_tokens": 350,
+            "total_tokens": 943,
+            "total_cost": 0.00943
+        }
+    },
+    "total_cost": 0.02431
+}
